@@ -1,0 +1,526 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+body {
+  color: #5a5a5a; }
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20; }
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-left: 0;
+  padding-right: 0; }
+
+.navbar-wrapper .navbar {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+  height: 466px;
+  max-width: 1268px;
+  margin: -51px auto 0; }
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10; }
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 466px;
+  background-color: #777; }
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px; }
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px; }
+
+.marketing h2 {
+  font-weight: normal; }
+
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+/* Featurettes
+------------------------- */
+.featurette-divider {
+  margin: 80px 0;
+  /* Space out the Bootstrap <hr> more */ }
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px; }
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 768px) {
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0; }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px; }
+
+  .navbar-wrapper .container {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+  .navbar-wrapper .navbar {
+    padding-left: 0;
+    padding-right: 0; }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px; }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4; }
+
+  .featurette-heading {
+    font-size: 50px; } }
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px; } }
+.navbar-default {
+  margin: 0;
+  background: none;
+  border: none; }
+
+.navbar > .container .navbar-brand {
+  position: absolute;
+  text-indent: -9999px;
+  width: 162px;
+  height: 144px;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  left: 50%;
+  display: block;
+  padding: 40px 20px 20px;
+  margin-left: -81px;
+  background-image: url("../img/main-logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #2c2928; }
+
+.navbar-default .navbar-collapse {
+  border-width: 0px;
+  border-style: solid;
+  border-color: transparent;
+  background-color: #2c2928; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #d1d2d4;
+  font-family: "proxima-nova";
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+#main {
+  position: relative;
+  z-index: 99;
+  max-width: 1268px;
+  width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 0 5px rgba(1, 1, 1, 0.45);
+  -moz-box-shadow: 0 0 5px rgba(1, 1, 1, 0.45);
+  box-shadow: 0 0 5px rgba(1, 1, 1, 0.45); }
+
+.marketing {
+  padding-top: 32px;
+  width: 100%; }
+  .marketing .section-header {
+    font-family: "museo-sans-rounded"; }
+    .marketing .section-header h1 {
+      text-align: center;
+      font-weight: 300;
+      margin-top: 0; }
+    .marketing .section-header h5 {
+      text-transform: uppercase;
+      color: #000;
+      font-family: "museo-sans-rounded";
+      font-size: 15px;
+      text-align: center; }
+  .marketing .categories {
+    max-width: 990px;
+    margin: 10px auto 0; }
+    .marketing .categories .block {
+      height: 155px;
+      margin: 0 3px;
+      max-width: 240px;
+      -webkit-transition: background-color 0.15s ease;
+      -moz-transition: background-color 0.15s ease;
+      -ms-transition: background-color 0.15s ease;
+      -o-transition: background-color 0.15s ease;
+      transition: background-color 0.15s ease; }
+      .marketing .categories .block span {
+        display: block;
+        width: 65px;
+        height: 65px;
+        background-repeat: no-repeat;
+        margin: 18px auto 0;
+        background-position: center; }
+      .marketing .categories .block p {
+        color: #fff;
+        margin: 15px 42px 0;
+        font-family: "museo-sans-rounded";
+        font-size: 15px;
+        text-align: center;
+        text-transform: uppercase; }
+    .marketing .categories .black {
+      background-color: #2c2928; }
+      .marketing .categories .black:hover {
+        background-color: #171515; }
+    .marketing .categories .gray {
+      background-color: #58595b; }
+      .marketing .categories .gray:hover {
+        background-color: #444546; }
+    .marketing .categories .green {
+      background-color: #00703c; }
+      .marketing .categories .green:hover {
+        background-color: #004726; }
+    .marketing .categories .yellow {
+      background-color: #eeca3c; }
+      .marketing .categories .yellow:hover {
+        background-color: #ebc016; }
+    .marketing .categories .hardware span {
+      background-image: url("../img/hardware-icon.png");
+      width: 61px;
+      position: relative;
+      left: -10px; }
+    .marketing .categories .cabinet span {
+      background-image: url("../img/cabinet-icon.png"); }
+    .marketing .categories .bathroom span {
+      background-image: url("../img/bathroom-icon.png"); }
+    .marketing .categories .items span {
+      background-image: url("../img/items-icon.png"); }
+  .marketing .featured-products {
+    background-color: #f5f5f5;
+    margin: 55px 0 0;
+    -webkit-box-shadow: 0 0 5px rgba(1, 1, 1, 0.45);
+    -moz-box-shadow: 0 0 5px rgba(1, 1, 1, 0.45);
+    box-shadow: 0 0 5px rgba(1, 1, 1, 0.45);
+    padding: 40px 92px 55px; }
+    .marketing .featured-products .featured-header {
+      font-family: "museo-sans-rounded";
+      margin-bottom: 24px; }
+      .marketing .featured-products .featured-header h1 {
+        text-align: center;
+        font-weight: 300;
+        margin-top: 0; }
+      .marketing .featured-products .featured-header h5 {
+        text-transform: uppercase;
+        color: #000;
+        font-family: "museo-sans-rounded";
+        font-size: 15px;
+        text-align: center; }
+    .marketing .featured-products .featured-product {
+      max-width: 253px;
+      height: 296px;
+      background-color: #fff;
+      -webkit-box-shadow: 0 0 0 1px rgba(1, 1, 1, 0.23);
+      -moz-box-shadow: 0 0 0 1px rgba(1, 1, 1, 0.23);
+      box-shadow: 0 0 0 1px rgba(1, 1, 1, 0.23); }
+
+.call-us {
+  background-color: #eeca3c;
+  min-height: 90px;
+  padding: 1px 0 0;
+  text-align: center; }
+  .call-us h5 {
+    color: #fff;
+    font-family: "museo-sans-rounded";
+    font-size: 20px;
+    margin: 12px 0 0;
+    font-weight: 300; }
+  .call-us p {
+    color: #fff;
+    font-family: "museo-sans-rounded";
+    font-size: 36px;
+    line-height: 40px; }
+
+.resources .section-header {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  .resources .section-header h1 {
+    text-align: center;
+    font-weight: 300;
+    margin-top: 0; }
+  .resources .section-header h5 {
+    text-transform: uppercase;
+    color: #000;
+    font-family: "museo-sans-rounded";
+    font-size: 15px;
+    text-align: center; }
+.resources .resource-row {
+  margin-left: -30px; }
+  .resources .resource-row .resource {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0; }
+    .resources .resource-row .resource:nth-last-child(2), .resources .resource-row .resource:last-child {
+      border-bottom: none; }
+    .resources .resource-row .resource:first-child, .resources .resource-row .resource:nth-child(3) {
+      margin-right: 20px; }
+    .resources .resource-row .resource:nth-child(2), .resources .resource-row .resource:last-child {
+      margin-right: -20px; }
+    .resources .resource-row .resource img {
+      float: left; }
+    .resources .resource-row .resource .entry-content {
+      float: left; }
+      .resources .resource-row .resource .entry-content h3 {
+        margin: 0 0 15px;
+        color: #2b8d42;
+        font-family: "museo-sans-rounded";
+        font-size: 24px; }
+      .resources .resource-row .resource .entry-content p {
+        margin: 0 0 20px; }
+      .resources .resource-row .resource .entry-content a.readmore {
+        color: #2b8d42;
+        font-family: "MuseoSans", sans-serif;
+        font-size: 16px; }
+
+footer {
+  background-color: #2c2928;
+  padding-top: 30px; }
+  footer .logo {
+    display: block;
+    margin: 0 auto;
+    width: 107px;
+    height: 83px; }
+    footer .logo a.footer-logo {
+      width: 107px;
+      display: block;
+      text-indent: -9999px;
+      height: 83px;
+      background-image: url("../img/footer-logo.png");
+      background-repeat: no-repeat;
+      background-position: center center; }
+  footer .social-footer {
+    width: 76px;
+    margin: 25px auto 0;
+    height: 32px; }
+    footer .social-footer a {
+      width: 38px;
+      height: 32px;
+      display: block;
+      float: left;
+      margin: 0;
+      background-repeat: no-repeat; }
+      footer .social-footer a.tw {
+        background-image: url("../img/twitter.png"); }
+      footer .social-footer a.fb {
+        background-image: url("../img/facebook.png"); }
+  footer p {
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 20px; }
+
+.contact-page {
+  margin-top: -51px;
+  padding-top: 51px; }
+  .contact-page form {
+    padding-top: 120px;
+    font-family: "museo-sans-rounded"; }
+    .contact-page form legend {
+      color: #000;
+      font-family: "museo-sans-rounded";
+      font-size: 43px;
+      border: none;
+      text-indent: 15px;
+      font-weight: 100; }
+    .contact-page form .left {
+      display: block; }
+    .contact-page form .right {
+      display: block; }
+    .contact-page form .control-group {
+      margin-bottom: 20px; }
+      .contact-page form .control-group .control-label {
+        text-transform: uppercase;
+        color: #7c8288;
+        font-size: 14px;
+        font-weight: 300; }
+      .contact-page form .control-group .controls {
+        display: block; }
+        .contact-page form .control-group .controls button {
+          width: 178px;
+          height: 51px;
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          border-radius: 3px;
+          background-color: #006f3b;
+          float: right;
+          margin: 22px 0 50px; }
+        .contact-page form .control-group .controls input {
+          color: #7c8288;
+          font-weight: 100;
+          font-size: 12px;
+          padding: 0 10px;
+          width: 100%;
+          height: 47px;
+          border: 1px solid #d8d8d8;
+          -webkit-border-radius: 6px;
+          -moz-border-radius: 6px;
+          border-radius: 6px;
+          -moz-background-clip: padding;
+          -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+          /* prevents bg color from leaking outside the border */
+          background-color: #fff; }
+        .contact-page form .control-group .controls p.help-block {
+          text-indent: -9999px;
+          position: absolute; }
+        .contact-page form .control-group .controls textarea {
+          min-height: 236px;
+          border: 1px solid #d8d8d8;
+          -webkit-border-radius: 12px;
+          -moz-border-radius: 12px;
+          border-radius: 12px;
+          -moz-background-clip: padding;
+          -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+          /* prevents bg color from leaking outside the border */
+          background-color: #fff;
+          color: #7c8288;
+          font-weight: 100;
+          padding: 10px;
+          font-size: 12px;
+          width: 100%; }
+
+#markerOptions {
+  position: absolute;
+  font-family: "museo-sans-rounded";
+  width: 567px;
+  left: 0;
+  opacity: 0;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 5px rgba(1, 1, 1, 0.45);
+  -moz-box-shadow: 0 0 5px rgba(1, 1, 1, 0.45);
+  box-shadow: 0 0 5px rgba(1, 1, 1, 0.45);
+  -webkit-transition: all 0.30s ease;
+  -moz-transition: all 0.30s ease;
+  -ms-transition: all 0.30s ease;
+  -o-transition: all 0.30s ease;
+  transition: all 0.30s ease;
+  z-index: 9999999999;
+  margin-top: -600px;
+  list-style-type: none;
+  padding: 25px 35px; }
+  #markerOptions h1 {
+    color: #000;
+    font-weight: 100;
+    font-size: 40px;
+    font-family: "museo-sans-rounded";
+    margin: 0 0 18px; }
+    #markerOptions h1 strong {
+      font-weight: 300; }
+  #markerOptions li {
+    display: table-row;
+    list-style-type: none;
+    cursor: pointer;
+    float: left;
+    width: 100%;
+    padding: 15px 0 15px 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+    width: 520px;
+    margin-bottom: 0px;
+    -webkit-transition: background-color 0.15s ease;
+    -moz-transition: background-color 0.15s ease;
+    -ms-transition: background-color 0.15s ease;
+    -o-transition: background-color 0.15s ease;
+    transition: background-color 0.15s ease; }
+    #markerOptions li:hover {
+      background-color: rgba(0, 0, 0, 0.05); }
+    #markerOptions li a.btn {
+      display: block;
+      margin-top: 10px;
+      width: 158px;
+      font-family: "museo-sans-rounded";
+      height: 44px;
+      line-height: 44px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      background-color: #edc93b;
+      color: #2c2927;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      float: left;
+      margin-right: 100%;
+      padding: 0; }
+    #markerOptions li .table-cell {
+      display: table-cell;
+      float: left;
+      width: 50%; }
+      #markerOptions li .table-cell i {
+        color: #eeca3c;
+        font-size: 23px;
+        position: absolute; }
+      #markerOptions li .table-cell h5 {
+        font-weight: bold;
+        margin: 0;
+        font-size: 19px;
+        text-transform: uppercase; }
+      #markerOptions li .table-cell p {
+        font-weight: 100;
+        margin: 0;
+        color: #000;
+        font-size: 15px; }
+      #markerOptions li .table-cell.left-side h5,
+      #markerOptions li .table-cell.left-side p {
+        padding-left: 35px; }
+      #markerOptions li .table-cell.right-info {
+        line-height: 26px; }
+        #markerOptions li .table-cell.right-info i.fa-phone {
+          color: #eeca3c;
+          font-size: 23px;
+          position: absolute; }
+        #markerOptions li .table-cell.right-info i.fa-envelope {
+          color: #eeca3c;
+          font-size: 23px;
+          position: absolute; }
+        #markerOptions li .table-cell.right-info p {
+          font-weight: bold;
+          padding-left: 35px; }
+
+.mapCanvas {
+  margin-top: -15px;
+  width: 100%;
+  height: 670px;
+  z-index: 9; }
+
+/*# sourceMappingURL=main.css.map */

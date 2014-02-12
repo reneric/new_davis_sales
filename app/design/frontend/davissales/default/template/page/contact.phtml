@@ -1,0 +1,271 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+/**
+ * Template for Mage_Page_Block_Html
+ */
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->getLang() ?>" lang="<?php echo $this->getLang() ?>">
+<head>
+<?php echo $this->getChildHtml('head') ?>
+</head>
+<body<?php echo $this->getBodyClass()?' class="'.$this->getBodyClass().'"':'' ?>>
+<?php echo $this->getChildHtml('after_body_start') ?>
+<?php echo $this->getChildHtml('header') ?>
+ 
+    <div id="main">
+      <div class="container contact-page">
+          <form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>We'd love to hear from you.</legend>
+<div class="col-xs-6 left">
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="name">Name</label>
+  <div class="controls">
+    <input id="name" name="name" type="text" placeholder="Type your name here" class="input-xlarge" required="">
+    <p class="help-block">Name</p>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="email">Email</label>
+  <div class="controls">
+    <input id="email" name="email" type="email" placeholder="Type your email here" class="input-xlarge" required="">
+    <p class="help-block">Email</p>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="organization">Organization</label>
+  <div class="controls">
+    <input id="organization" name="organization" type="text" placeholder="Type your company name here" class="input-xlarge">
+    <p class="help-block">Organization</p>
+  </div>
+</div>
+</div><!-- col-xs-6 left -->
+<div class="col-xs-6 right">
+<!-- Textarea -->
+<div class="control-group">
+  <label class="control-label" for="message">Message</label>
+  <div class="controls">                     
+    <textarea id="message" name="message">Type your message here</textarea>
+  </div>
+  <!-- Button -->
+<div class="control-group">
+  
+  <div class="controls">
+    <button id="submit" name="submit" class="btn btn-primary">Submit</button>
+  </div>
+</div>
+</div>
+</div><!-- col-xs-6 right -->
+</fieldset>
+</form>
+
+      </div><!-- container -->
+      </div><!-- main -->
+    <div class="mapContainer">
+    <div id="mapCanvas" class="mapCanvas"></div>
+    <ul id="markerOptions" class="markerOptions">
+        <h1>Visit one of our <strong>three</strong> locations.</h1>
+         <li data-marker="0" data-lat="29.95134635974806" data-lng="-90.07123947143555">
+         <div class="table-cell left-side">
+           <i class="fa fa-map-marker"></i>
+           <h5>Davis Sales</h5>
+           <p>5620 Jefferson Hwy</p>
+           <p>New Orleans, LA 70123</p>
+         </div><!-- table-cell -->
+         <div class="table-cell right-info">
+           <i class="fa fa-phone"></i>
+           <p class="phone">225.444.8765</p>
+           <i class="fa fa-envelope"></i>
+           <p class="email">hello@davissales.com</p>
+         </div><!-- table-cell -->
+         <a href="#" class="btn">Get Directions</a>
+         </li>
+         <li data-marker="2" data-lat="29.952521" data-lng="-90.080671">
+         <div class="table-cell left-side">
+           <i class="fa fa-map-marker"></i>
+           <h5>Davis Sales</h5>
+           <p>5620 Jefferson Hwy</p>
+           <p>New Orleans, LA 70123</p>
+         </div><!-- table-cell -->
+         <div class="table-cell right-info">
+           <i class="fa fa-phone"></i>
+           <p class="phone">225.444.8765</p>
+           <i class="fa fa-envelope"></i>
+           <p class="email">hello@davissales.com</p>
+         </div><!-- table-cell -->
+         <a href="#" class="btn">Get Directions</a>
+         </li>
+         <li data-marker="3" data-lat="33.811406" data-lng="-117.920737">
+         <div class="table-cell left-side">
+           <i class="fa fa-map-marker"></i>
+           <h5>Davis Sales</h5>
+           <p>5620 Jefferson Hwy</p>
+           <p>New Orleans, LA 70123</p>
+         </div><!-- table-cell -->
+         <div class="table-cell right-info">
+           <i class="fa fa-phone"></i>
+           <p class="phone">225.444.8765</p>
+           <i class="fa fa-envelope"></i>
+           <p class="email">hello@davissales.com</p>
+         </div><!-- table-cell -->
+         <a href="#" class="btn">Get Directions</a>
+         </li>
+    </ul>
+</div>
+
+                    <?php //echo $this->getChildHtml('global_messages') ?>
+                    <?php // echo $this->getChildHtml('content') ?>
+        <?php echo $this->getChildHtml('footer') ?>
+        <?php echo $this->getChildHtml('global_cookie_notice') ?>
+        <?php echo $this->getChildHtml('before_body_end') ?>
+<?php echo $this->getAbsoluteFooter() ?>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZBqlo2foJKRoMVpkVcmPyWoxEl18fwU4&sensor=true"></script>
+<script type="text/javascript">
+  markers = [];
+  function pan_to(lat,lng) { //just omit the 'lati' and 'long'
+    var latLng = new google.maps.LatLng(lat, lng);
+    map.panTo(latLng);
+}
+ 
+$('#markerOptions li').on('click', function(event) {
+  event.preventDefault();
+  $lat = $(this).data('lat');
+  $lng = $(this).data('lng');
+  pan_to($lat,$lng)
+});
+  function initialize() {
+    var styles = [
+  {
+    "featureType": "water",
+    "stylers": [
+      { "color": "#c6c6c6" }
+    ]
+  },{
+    "featureType": "landscape",
+    "stylers": [
+      { "color": "#e3e3e3" }
+    ]
+  },{
+    "featureType": "road.highway",
+    "stylers": [
+      { "color": "#aaaaaa" }
+    ]
+  },{
+    "featureType": "road.local",
+    "stylers": [
+      { "color": "#cccccc" }
+    ]
+  },{
+    "featureType": "poi",
+    "elementType": "geometry",
+    "stylers": [
+      { "color": "#999999" }
+    ]
+  }
+]
+
+    var styledMap = new google.maps.StyledMapType(styles,
+    {name: "Styled Map"});
+
+    var mapOptions = {
+      center:  new google.maps.LatLng (29.95134635974806,-90.07123947143555),
+      zoom: 14,
+      mapTypeId: google.maps.MapTypeId.ROADTYPE,
+      panControl: true,
+      zoomControl: true,
+      mapTypeControl: false,
+      scaleControl: true,
+      streetViewControl: true
+    };
+    map = new google.maps.Map(document.getElementById("mapCanvas"),mapOptions);
+    // map.offsetCenter(map.getCenter(), 250, 0);
+    
+    map.mapTypes.set('map_style', styledMap)
+    
+
+    // map.offsetCenter(center,1350,0);  
+
+  map.setMapTypeId('map_style');
+    var marker0 = new google.maps.Marker({
+        position: new google.maps.LatLng (29.95134635974806,-90.07123947143555),
+        map: map,
+        icon: "img/map-marker.png"
+    });
+    var marker1 = new google.maps.Marker({
+        position: new google.maps.LatLng (29.952521,-90.080671),
+        map: map,
+        icon: "img/map-marker.png"
+    });
+    var marker2 = new google.maps.Marker({
+        position: new google.maps.LatLng (33.811406,-117.920737),
+        map: map,
+        icon: "img/map-marker.png"
+    });
+    markers.push(marker0);
+  }
+//   var center = map.getCenter();
+
+// map.offsetCenter(new google.maps.LatLng (29.95134635974806,-90.07123947143555),1350,0);  
+  google.maps.event.addDomListener(window, "load", initialize);
+
+  // map.setCenter(new google.maps.LatLng(29.95134635974806,-90.07123947143555));
+  $(document).ready(function()
+  {
+      $('#markerOptions li').on('click', function()
+      {
+          $('#markerOptions li').removeClass('selectedMarker');
+          $(this).addClass('selectedMarker');
+          var markerId = $(this).attr('data-marker');
+          var lat = markers[markerId].position.lat();
+          var lng = markers[markerId].position.lng();
+          map.setCenter(new google.maps.LatLng(lat, lng));
+          map.setZoom(14);
+      });
+  });
+$(function(){
+    $contact = $('.contact-page')
+    $contact_pos = $contact.offset();
+    setTimeout(function(){
+        $marker_panel = $('#markerOptions').css({
+            left: $contact_pos.left,
+            opacity: '1'
+        });
+    },1000)
+
+})
+</script>
+</body>
+</html>

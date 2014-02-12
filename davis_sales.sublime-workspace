@@ -116,6 +116,7 @@
 	},
 	"file_history":
 	[
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/.gitignore",
 		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/sftp-config.json",
 		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/page-news.php",
 		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/style.css",
@@ -242,8 +243,7 @@
 		"/Users/rsimmons/Desktop/Development/Projects/Spectos/footer.php",
 		"/Users/rsimmons/Desktop/Development/Projects/Spectos/.sass-cache/952a4144bc8a501ea8db557fa6bbc78969fd7b1d/_typography.scssc",
 		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/LiveStyle.sublime-settings",
-		"/Users/rsimmons/Desktop/Development/Projects/Spectos/content-blog.php",
-		"/Users/rsimmons/Desktop/Development/Projects/Spectos/css/responsive.css"
+		"/Users/rsimmons/Desktop/Development/Projects/Spectos/content-blog.php"
 	],
 	"find":
 	{
@@ -874,6 +874,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"sum",
+				"~/Desktop/Development/Projects/summit/summit.sublime-project"
+			],
 			[
 				"",
 				"~/Desktop/Development/Projects/feedme/feedme.sublime-project"
