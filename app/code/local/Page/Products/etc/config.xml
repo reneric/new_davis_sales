@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Page_Products>
+      <version>0.1.0</version>
+    </Page_Products>
+  </modules>
+  <global>
+    <page>
+      <layouts>
+        <Page_Products translate="label">
+          <label>Products</label>
+          <template>page/products.phtml</template>
+          <layout_handle>Page_Products</layout_handle>
+        </Page_Products>
+        <!-- add more layouts here -->
+      </layouts>
+    </page>
+  </global>
+</config>

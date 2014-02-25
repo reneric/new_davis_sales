@@ -1,0 +1,149 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+/**
+ * Template for Mage_Page_Block_Html
+ */
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->getLang() ?>" lang="<?php echo $this->getLang() ?>">
+<head>
+<?php echo $this->getChildHtml('head') ?>
+</head>
+<body<?php echo $this->getBodyClass()?' class="'.$this->getBodyClass().'"':'' ?>>
+<?php echo $this->getChildHtml('after_body_start') ?>
+<?php echo $this->getChildHtml('header') ?>
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <!-- <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li> -->
+        <!-- <li data-target="#myCarousel" data-slide-to="2"></li> -->
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/customer-service-slider.png" alt="First slide">
+          <div class="container">
+          </div>
+        </div>
+        
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+    
+      <div id="main" class="customer-service-page">
+        <div class="container content-wrap">
+          <div class="content">
+            <img src="img/warranty.png" alt="">
+            <div class="entry-content">
+              <h2>Warranty on All Products</h2>
+              <p>Davis Sales offers a complete warranty on every product you find in store. We are confident in the quality of our products. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
+            </div><!-- entry-content -->
+          </div><!-- entry-content -->
+          <div class="content">
+            <img src="img/knowledge.png" alt="">
+            <div class="entry-content">
+              <h2>Knowledgable Staff </h2>
+              <p>Davis Sales offers a complete warranty on every product you find in store. We are confident in the quality of our products. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
+            </div><!-- entry-content -->
+          </div><!-- entry-content -->
+          <div class="content">
+            <img src="img/locksmith.png" alt="">
+            <div class="entry-content">
+              <h2>Locksmith on Staff</h2>
+              <p>Davis Sales offers a complete warranty on every product you find in store. We are confident in the quality of our products. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
+            </div><!-- entry-content -->
+          </div><!-- entry-content -->
+
+        </div><!-- container content-wrap -->
+      </div>
+      <div class="one-stop">
+            <h1>What Our Customers Say</h1>
+            <div class="row testimonials">
+              <div class="col-xs-6 testimonial">
+              <div class="inner">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <h5>- Client Name Here, <span>Contractor</span></h5>
+                </div><!-- inner -->
+              </div><!-- col-xs-6 testimonial -->
+              <div class="col-xs-6 testimonial">
+              <div class="inner">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <h5>- Client Name Here, <span>Contractor</span></h5>
+                </div><!-- inner -->
+              </div><!-- col-xs-6 testimonial -->
+
+            </div><!-- row -->
+          </div><!-- one-stop -->
+      <div class="call-banner">
+          <h5>Call us today</h5>
+          <h2>(255) 766-7051</h2>
+        </div><!-- call-banner -->
+      <div class="row three-locations">
+        <h5>Visit one of our three locations</h5>
+        <div class="row loc-row">
+        <div class="col-xs-4 location clearfix">
+          <ul class="clearfix">
+            <li>Davis Sales</li>
+            <li>5620 Jefferson Hwy</li>
+            <li>New Orleans, LA 70123</li>
+            <li>225-444-8765</li>
+          </ul>
+        </div><!-- col-xs-4 location -->
+        <div class="col-xs-4 location clearfix">
+          <ul class="clearfix">
+            <li>Davis Sales</li>
+            <li>5620 Jefferson Hwy</li>
+            <li>New Orleans, LA 70123</li>
+            <li>225-444-8765</li>
+          </ul>
+        </div><!-- col-xs-4 location -->
+        <div class="col-xs-4 location clearfix">
+          <ul class="clearfix">
+            <li>Davis Sales</li>
+            <li>5620 Jefferson Hwy</li>
+            <li>New Orleans, LA 70123</li>
+            <li>225-444-8765</li>
+          </ul>
+        </div><!-- col-xs-4 location -->
+        <div class="control-btn">
+        <a href="/contact" class="contact-btn">Contact Us</a>
+        </div><!-- control-btn -->
+</div><!-- row loc-row -->
+      </div><!-- container three-locations -->
+      
+                    <?php //echo $this->getChildHtml('global_messages') ?>
+                    <?php // echo $this->getChildHtml('content') ?>
+        <?php echo $this->getChildHtml('footer') ?>
+        <?php echo $this->getChildHtml('global_cookie_notice') ?>
+        <?php echo $this->getChildHtml('before_body_end') ?>
+<?php echo $this->getAbsoluteFooter() ?>
+</body>
+</html>

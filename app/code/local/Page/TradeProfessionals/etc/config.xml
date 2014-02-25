@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Page_TradeProfessionals>
+      <version>0.1.0</version>
+    </Page_TradeProfessionals>
+  </modules>
+  <global>
+    <page>
+      <layouts>
+        <Page_TradeProfessionals translate="label">
+          <label>Trade Professionals</label>
+          <template>page/trade-professionals.phtml</template>
+          <layout_handle>Page_TradeProfessionals</layout_handle>
+        </Page_TradeProfessionals>
+        <!-- add more layouts here -->
+      </layouts>
+    </page>
+  </global>
+</config>

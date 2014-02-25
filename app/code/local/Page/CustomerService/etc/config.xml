@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Page_CustomerService>
+      <version>0.1.0</version>
+    </Page_CustomerService>
+  </modules>
+  <global>
+    <page>
+      <layouts>
+        <Page_CustomerService translate="label">
+          <label>Customer Service</label>
+          <template>page/customer-service.phtml</template>
+          <layout_handle>Page_CustomerService</layout_handle>
+        </Page_CustomerService>
+        <!-- add more layouts here -->
+      </layouts>
+    </page>
+  </global>
+</config>

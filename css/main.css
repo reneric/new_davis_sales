@@ -158,6 +158,10 @@ body {
   -webkit-box-shadow: 0 0 5px rgba(1, 1, 1, 0.45);
   -moz-box-shadow: 0 0 5px rgba(1, 1, 1, 0.45);
   box-shadow: 0 0 5px rgba(1, 1, 1, 0.45); }
+  #main.about, #main.customer-service-page {
+    -webkit-box-shadow: 0 0 0px rgba(1, 1, 1, 0);
+    -moz-box-shadow: 0 0 0px rgba(1, 1, 1, 0);
+    box-shadow: 0 0 0px rgba(1, 1, 1, 0); }
 
 .marketing {
   padding-top: 32px;
@@ -516,6 +520,208 @@ footer {
         #markerOptions li .table-cell.right-info p {
           font-weight: bold;
           padding-left: 35px; }
+
+.about-page h1 {
+  color: #000;
+  font-family: "museo-sans-rounded";
+  font-size: 43px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 40px; }
+.about-page .three-points {
+  margin-top: 20px; }
+  .about-page .three-points span {
+    display: block;
+    width: 100%;
+    min-height: 270px;
+    background-repeat: no-repeat;
+    background-position: center center; }
+  .about-page .three-points h5 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    font-family: "proxima-nova";
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0 0 16px; }
+  .about-page .three-points p {
+    color: #000;
+    font-family: "museo-sans-rounded";
+    font-size: 16px;
+    font-weight: 100;
+    max-width: 310px;
+    width: 100%;
+    margin: 0 auto 20px; }
+  .about-page .three-points img {
+    max-width: 310px;
+    width: 100%;
+    margin: 15px auto 30px;
+    text-transform: center;
+    display: block; }
+  .about-page .three-points .locations {
+    border-style: solid;
+    border-color: #c6c8c9;
+    border-width: 0 1px; }
+  .about-page .three-points .locations,
+  .about-page .three-points .customer-service,
+  .about-page .three-points .established {
+    min-height: 460px; }
+
+.one-stop {
+  width: 100%;
+  text-align: center;
+  min-height: 302px;
+  padding: 50px 0;
+  margin: 50px 0;
+  background-color: #f5f5f5;
+  -webkit-box-shadow: 0 0 0 1px rgba(1, 1, 1, 0.23);
+  -moz-box-shadow: 0 0 0 1px rgba(1, 1, 1, 0.23);
+  box-shadow: 0 0 0 1px rgba(1, 1, 1, 0.23); }
+  .one-stop h1 {
+    color: #000;
+    font-family: "museo-sans-rounded";
+    font-size: 43px;
+    font-weight: 100; }
+  .one-stop p {
+    color: #000;
+    font-family: "museo-sans-rounded";
+    font-weight: 100;
+    font-size: 32px;
+    max-width: 930px;
+    margin: 0 auto; }
+
+.call-banner {
+  background-color: #eeca3c;
+  min-height: 93px;
+  margin: 0 auto 5px;
+  max-width: 1268px;
+  width: 100%;
+  padding: 1px 0 0;
+  text-align: center; }
+  .call-banner h5 {
+    color: #fff;
+    margin: 15px 0 0px;
+    font-family: "museo-sans-rounded";
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 17px; }
+  .call-banner h2 {
+    color: #fff;
+    font-family: "museo-sans-rounded";
+    margin: 0;
+    font-size: 40px; }
+
+.three-locations {
+  max-width: 1268px;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 0 5px rgba(1, 1, 1, 0.45);
+  -moz-box-shadow: 0 0 5px rgba(1, 1, 1, 0.45);
+  box-shadow: 0 0 5px rgba(1, 1, 1, 0.45); }
+  .three-locations h5 {
+    color: #4B4B4B;
+    font-family: "museo-sans-rounded";
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 4px double #000;
+    max-width: 1060px;
+    margin: 40px auto 0;
+    padding-bottom: 11px;
+    font-weight: bold; }
+  .three-locations .loc-row {
+    display: block;
+    max-width: 1060px;
+    width: 100%;
+    margin: 30px auto; }
+    .three-locations .loc-row .location ul {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      .three-locations .loc-row .location ul li {
+        text-align: center;
+        font-weight: 100;
+        font-family: "museo-sans-rounded";
+        color: #4b4b4b;
+        font-size: 28px; }
+        .three-locations .loc-row .location ul li:last-child {
+          margin-top: 30px; }
+    .three-locations .loc-row .control-btn {
+      float: left;
+      width: 100%; }
+      .three-locations .loc-row .control-btn a.contact-btn {
+        max-width: 260px;
+        width: 100%;
+        height: 75px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        background-color: #edc93b;
+        color: #2b2927;
+        font-family: "museo-sans-rounded";
+        font-size: 22px;
+        text-transform: uppercase;
+        display: block;
+        text-align: center;
+        margin: 40px auto;
+        line-height: 72px;
+        font-weight: bold; }
+
+.customer-service-page {
+  padding: 1px 0 0; }
+  .customer-service-page .content-wrap {
+    width: 1010px;
+    margin: 20px auto 0;
+    display: block; }
+    .customer-service-page .content-wrap .content {
+      display: block;
+      padding: 40px 0;
+      float: left;
+      border-bottom: 1px solid #c6c8c9; }
+      .customer-service-page .content-wrap .content:last-child {
+        border: none; }
+    .customer-service-page .content-wrap img {
+      display: inline-block;
+      float: left;
+      margin-right: 35px; }
+    .customer-service-page .content-wrap .entry-content {
+      display: inline; }
+      .customer-service-page .content-wrap .entry-content h2 {
+        color: #000;
+        font-size: 43px;
+        font-family: "museo-sans-rounded";
+        font-weight: 100;
+        margin: 0 0 30px; }
+      .customer-service-page .content-wrap .entry-content p {
+        text-align: left;
+        font-family: "museo-sans-rounded";
+        color: #000;
+        font-size: 21px;
+        font-weight: 100; }
+
+.one-stop .testimonials {
+  max-width: 1010px;
+  width: 100%;
+  margin: 0 auto; }
+.one-stop .testimonial {
+  display: block; }
+  .one-stop .testimonial .inner {
+    background-color: #eceded;
+    padding: 30px; }
+  .one-stop .testimonial p {
+    text-align: left;
+    color: #000;
+    font-family: "museo-sans-rounded";
+    font-size: 21px;
+    font-weight: 100;
+    margin: 0; }
+  .one-stop .testimonial h5 {
+    color: #006f3b;
+    font-family: "museo-sans-rounded";
+    font-size: 24px;
+    font-weight: 300;
+    text-align: left; }
+    .one-stop .testimonial h5 span {
+      font-style: italic; }
 
 .mapCanvas {
   margin-top: -15px;

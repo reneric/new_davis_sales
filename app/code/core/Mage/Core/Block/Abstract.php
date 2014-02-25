@@ -996,7 +996,13 @@ abstract class Mage_Core_Block_Abstract extends Varien_Object
      */
     public function getUrl($route = '', $params = array())
     {
-        return $this->_getUrlModel()->getUrl($route, $params);
+        // return $this->_getUrlModel()->getUrl($route, $params);
+        $return_url = $this->_getUrlModel()->getUrl($route, $params);
+        if ($return_url != $this->getBaseUrl() && substr($return_url, -1) == '/' && !Mage::getSingleton('admin/session')->isLoggedIn()):
+            return substr($return_url, 0, -1);
+        else:
+            return $return_url;
+        endif;
     }
 
     /**
