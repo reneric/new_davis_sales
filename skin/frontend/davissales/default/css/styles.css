@@ -33,7 +33,9 @@ img           { /* border:0; */ /* vertical-align:top; */ }
 a             { /* color:#1e7ec8; */ /* text-decoration: none; */ }
 a:hover       { text-decoration:none; }
 :focus        { outline:0; }
-
+.section-header h1{
+	font-size: 36px;
+}
 /* Headings */
 h1,h2,h3,
 h4,h5,h6      { margin:0 0 5px; line-height:1.35; color:#0a263c; }
