@@ -39,7 +39,7 @@ a:hover       { text-decoration:none; }
 /* Headings */
 h1,h2,h3,
 h4,h5,h6      { margin:0 0 5px; line-height:1.35; color:#0a263c; }
-h1            { font-size:20px; font-weight:normal; }
+h1            { font-size:36px; font-weight:normal; }
 h2            { font-size:18px; font-weight:normal; }
 h3            { /* font-size:16px; */ /* font-weight:bold; */ text-align: left;}
 h4            { font-size:14px; font-weight:bold; }
