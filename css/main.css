@@ -251,6 +251,15 @@ body {
         font-family: "museo-sans-rounded";
         font-size: 15px;
         text-align: center; }
+        .marketing .featured-products .featured-product p{
+color: #000; /* text color */
+        font-family: "museo-sans-rounded";
+font-size: 19px;
+text-transform: uppercase;
+font-weight: bold;
+text-align: center;
+margin: 0 25px;
+        }
         .marketing .featured-products .featured-product img{
           margin: 12px auto;
 display: block;
