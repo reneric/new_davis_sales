@@ -208,7 +208,8 @@ $('#markerOptions li').on('click', function(event) {
       zoomControl: true,
       mapTypeControl: false,
       scaleControl: true,
-      streetViewControl: true
+      streetViewControl: true,
+      scrollwheel: false
     };
     map = new google.maps.Map(document.getElementById("mapCanvas"),mapOptions);
     // map.offsetCenter(map.getCenter(), 250, 0);

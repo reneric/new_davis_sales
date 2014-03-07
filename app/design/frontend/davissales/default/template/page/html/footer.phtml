@@ -26,7 +26,7 @@
 ?>
 <footer>
         <div class="row logo">
-          <a href="/" class="footer-logo">Davis Sales</a>
+          <a href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB); ?>" class="footer-logo">Davis Sales</a>
         </div><!-- row logo -->
         <div class="social-footer">
           <a href="#" class="tw"></a>
@@ -35,14 +35,8 @@
         <!-- <p class="pull-right"><a href="#">Back to top</a></p> -->
         <p>Copyright &copy; 2014 Davis Sales Company &middot; All rights reserved.</p>
       </footer>
-<div class="footer-container" style="display:none;">
-    <div class="footer">
-        <?php echo $this->getChildHtml() ?>
-        <p class="bugs"><?php echo $this->__('Help Us to Keep Magento Healthy') ?> - <a href="http://www.magentocommerce.com/bug-tracking" onclick="this.target='_blank'"><strong><?php echo $this->__('Report All Bugs') ?></strong></a> <?php echo $this->__('(ver. %s)', Mage::getVersion()) ?></p>
-        <address><?php echo $this->getCopyright() ?></address>
-    </div>
-</div>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB); ?>/js/bootstrap.min.js"></script>
