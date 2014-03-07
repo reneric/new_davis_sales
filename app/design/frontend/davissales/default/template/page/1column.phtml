@@ -36,14 +36,24 @@
 </head>
 <body<?php echo $this->getBodyClass()?' class="'.$this->getBodyClass().'"':'' ?>>
 <?php echo $this->getChildHtml('after_body_start') ?>
-<div class="wrapper">
     <?php echo $this->getChildHtml('global_notices') ?>
-    <div class="page">
+    <?php 
+$_category = Mage::getModel('catalog/category')->load(CATEGORY-ID);    
+    $_categories = $_category
+                    ->getCollection()
+                    ->addAttributeToSelect(array('name', 'image', 'description'))
+                    ->addIdFilter($_category->getChildren());
+
+    foreach ($_categories as $_category):
+       echo $_category->getName();
+    endforeach;
+     ?>
         <?php echo $this->getChildHtml('header') ?>
-        <div class="main-container col1-layout">
-            <div class="main">
+        <div id="main" class="about">
+        <div class="container about-page clearfix">
                 <?php echo $this->getChildHtml('breadcrumbs') ?>
-                <div class="col-main">
+                <div class="col-lefts sidebar col-xs-4"><?php echo $this->getChildHtml('left') ?></div>
+                <div class="col-mains col-xs-8">
                     <?php echo $this->getChildHtml('global_messages') ?>
                     <?php echo $this->getChildHtml('content') ?>
                 </div>
@@ -52,8 +62,6 @@
         <?php echo $this->getChildHtml('footer') ?>
         <?php echo $this->getChildHtml('global_cookie_notice') ?>
         <?php echo $this->getChildHtml('before_body_end') ?>
-    </div>
-</div>
 <?php echo $this->getAbsoluteFooter() ?>
 </body>
 </html>

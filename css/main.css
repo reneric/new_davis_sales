@@ -687,7 +687,7 @@ footer {
       display: inline; }
       .customer-service-page .content-wrap .entry-content h2 {
         color: #000;
-        font-size: 43px;
+        font-size: 32px;
         font-family: "museo-sans-rounded";
         font-weight: 100;
         margin: 0 0 30px; }
@@ -729,4 +729,3 @@ footer {
   height: 670px;
   z-index: 9; }
 
-/*# sourceMappingURL=main.css.map */

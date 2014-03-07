@@ -110,9 +110,6 @@
 
 <IfModule mod_rewrite.c>
 
-############################################
-## enable rewrites
-
     Options +FollowSymLinks
     RewriteEngine on
 

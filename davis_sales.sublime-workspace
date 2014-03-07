@@ -116,6 +116,36 @@
 	},
 	"file_history":
 	[
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/skin/frontend/davissales/default/css/styles.css",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/skin/adminhtml/default/default/xmlconnect/styles.css",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/js/tiny_mce/classes/html/Styles.js",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/errors/default/css/styles.css",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Pdf/Style.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Filter/StripTags.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/davis_sales.sublime-project",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/adminhtml/default/default/template/newsletter/subscriber/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/adminhtml/default/default/template/newsletter/queue/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/adminhtml/default/default/template/newsletter/problem/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/default/iphone/template/tag/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/tag/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/rss/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/base/default/template/tag/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/base/default/template/rss/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/adminhtml/default/default/template/backup/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Markup/Renderer/Html/List.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/PEAR/HTTP/Request/Listener.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Service/Simpy/LinkSet.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/js/tiny_mce/classes/LegacyInput.js",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/LICENSE.html",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/js/varien/product.js",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/locale/en_US/template/email/product_share.html",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/errors/processor.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Filter/PregReplace.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/php.ini.sample",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/page/1column.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/.htaccess",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/base/default/template/page/1column.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/var/session/sess_129911cab4dfef14bb0fc33f30a187b2",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/.gitignore",
 		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/sftp-config.json",
 		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/page-news.php",
@@ -213,41 +243,11 @@
 		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/chat.png",
 		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/fb.png",
 		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/ln.png",
-		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/border.sublime-snippet",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/air.png",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/civil.png",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/auto.png",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/auto.jpg",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/civil.jpg",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/classaction.jpg",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/medical.jpg",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/stripe-border.png",
-		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/font.sublime-snippet",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/bg-pattern.png",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/scss/partials/_grid.scss",
-		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/wpimg.sublime-snippet",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/accidents.jpg",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/bg-pattern.jpg",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/intro.jpg",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/css/bootstrap-theme.css",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/css/bootstrap.css",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/orange-border.png",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/header-bg.jpg",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/logo.png",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/sftp-config.json",
-		"/Users/rsimmons/Desktop/Development/Projects/ClayBurgess/sftp-config.json",
-		"/Users/rsimmons/Desktop/Development/Projects/LoupeTheory/sftp-config.json",
-		"/Users/rsimmons/Desktop/Development/Projects/Spectos/css/main.css",
-		"/Users/rsimmons/Desktop/Development/Projects/Spectos/scss/main.scss",
-		"/Users/rsimmons/Desktop/Development/Projects/Spectos/404.php",
-		"/Users/rsimmons/Desktop/Development/Projects/Spectos/footer.php",
-		"/Users/rsimmons/Desktop/Development/Projects/Spectos/.sass-cache/952a4144bc8a501ea8db557fa6bbc78969fd7b1d/_typography.scssc",
-		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/LiveStyle.sublime-settings",
-		"/Users/rsimmons/Desktop/Development/Projects/Spectos/content-blog.php"
+		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/border.sublime-snippet"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -261,6 +261,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"class=\"main",
 			"92cdcf",
 			"#searchform",
 			".links",
@@ -387,8 +388,7 @@
 			"section",
 			"h1",
 			"section",
-			"post",
-			"home"
+			"post"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -466,6 +466,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"styles",
+				"skin/frontend/davissales/default/css/styles.css"
+			],
+			[
+				"products.pht",
+				"app/design/frontend/davissales/default/template/page/products.phtml"
+			],
+			[
+				"1",
+				"app/design/frontend/davissales/default/template/page/1column.phtml"
+			],
 			[
 				"sf",
 				"sftp-config.json"
