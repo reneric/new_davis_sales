@@ -682,7 +682,9 @@ footer {
     .customer-service-page .content-wrap img {
       display: inline-block;
       float: left;
-      margin-right: 35px; }
+      margin-right: 35px; 
+      margin-top: 10px;
+}
     .customer-service-page .content-wrap .entry-content {
       display: inline; }
       .customer-service-page .content-wrap .entry-content h2 {
