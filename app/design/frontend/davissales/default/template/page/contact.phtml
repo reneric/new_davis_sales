@@ -212,7 +212,7 @@ $('#markerOptions li').on('click', function(event) {
     };
     map = new google.maps.Map(document.getElementById("mapCanvas"),mapOptions);
     // map.offsetCenter(map.getCenter(), 250, 0);
-    map.panBy(-300,0)
+    map.panBy(-250,0)
     map.mapTypes.set('map_style', styledMap)
     
 
@@ -253,6 +253,7 @@ $('#markerOptions li').on('click', function(event) {
           var lng = markers[markerId].position.lng();
           map.setCenter(new google.maps.LatLng(lat, lng));
           map.setZoom(14);
+          map.panBy(-250,0)
       });
   });
 $(function(){
