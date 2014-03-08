@@ -251,6 +251,49 @@ body {
         font-family: "museo-sans-rounded";
         font-size: 15px;
         text-align: center; }
+        ul.add-to-links {}
+        ul.add-to-links li.viewdetail {
+
+        }
+        ul.add-to-links li{
+                    width: 98px;
+height: 43px;
+          display: inline-block;
+          margin: 0 -2px;
+        }
+        ul.add-to-links li.viewdetail a{
+          width: 98px;
+height: 43px;
+background-color: #edc93b; /* layer fill content */
+-moz-box-shadow: 1px 2px 5px rgba(0,0,0,.1); /* drop shadow */
+-webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.1); /* drop shadow */
+box-shadow: 1px 2px 5px rgba(0,0,0,.1); /* drop shadow */
+display: block;
+color: #fff; /* text color */
+line-height: 43px;
+text-transform: uppercase;
+font-size: 10px;
+      font-family: "museo-sans-rounded";
+
+
+        }
+        ul.add-to-links li.wishlist{
+        }
+          ul.add-to-links li.wishlist a{
+width: 98px;
+height: 43px;
+line-height: 43px;
+background-color: #006f3c; /* layer fill content */
+-moz-box-shadow: 1px 2px 5px rgba(0,0,0,.1); /* drop shadow */
+-webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.1); /* drop shadow */
+box-shadow: 1px 2px 5px rgba(0,0,0,.1); /* drop shadow */
+display: block;
+color: #fff !important; /* text color */
+text-transform: uppercase;
+      font-family: "museo-sans-rounded";
+
+font-size: 10px;
+        }
         .marketing .featured-products .featured-product p{
 color: #000; /* text color */
         font-family: "museo-sans-rounded";
