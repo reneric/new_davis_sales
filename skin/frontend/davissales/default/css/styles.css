@@ -64,7 +64,7 @@ a:hover       { text-decoration:none; }
     transition: opacity 0.2s ease-in-out;
 }
 .products-grid li.item:hover img{
-    opacity:.5;
+    opacity:.4;
     
 }
 .products-grid li.item:hover .product-name,
@@ -950,6 +950,7 @@ font-size: 18px;
     display:block;
 color: #4b4b4b; /* text color */
 font-size: 30px;
+text-shadow:0 0 3px rgba(255, 255, 255, 0.5);
 }
 
 /* View Type: List */
