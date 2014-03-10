@@ -29,14 +29,28 @@
 <layout version="0.1.0">
     <default>
         <!-- Mage_Reports -->
+        <reference name="left"> 
+            <block type="checkout/cart_sidebar" name="cart_sidebar" template="checkout/cart/sidebar.phtml">
+                <action method="addItemRender"><type>simple</type><block>checkout/cart_item_renderer</block><template>checkout/cart/sidebar/default.phtml</template></action>
+                <action method="addItemRender"><type>grouped</type><block>checkout/cart_item_renderer_grouped</block><template>checkout/cart/sidebar/default.phtml</template></action>
+                <action method="addItemRender"><type>configurable</type><block>checkout/cart_item_renderer_configurable</block><template>checkout/cart/sidebar/default.phtml</template></action>
+            </block>
+            <!-- <block type="reports/product_viewed" before="left.permanent.callout" name="left.reports.product.viewed" template="reports/product_viewed.phtml" /> -->
+        
+        </reference> 
         <reference name="right">
             <block type="reports/product_viewed" before="right.permanent.callout" name="right.reports.product.viewed" template="reports/product_viewed.phtml" />
             <block type="reports/product_compared" before="right.permanent.callout" name="right.reports.product.compared" template="reports/product_compared.phtml" />
         </reference>
     </default>
 
+    
+
     <catalog_category_layered_nochildren translate="label">
         <label>Catalog Category (Without Subcategories)</label>
+<!--         <reference name="left"> 
+<block type="reports/product_viewed" name="left.reports.product.viewed" template="reports/product_viewed.phtml" /> 
+</reference>  -->
         <remove name="right.reports.product.viewed" />
         <reference name="right">
             <block type="reports/product_viewed" before="right.permanent.callout" name="left.reports.product.viewed" template="reports/product_viewed.phtml" />

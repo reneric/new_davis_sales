@@ -116,27 +116,102 @@
 	},
 	"file_history":
 	[
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/page/html/footer.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/css/main.css",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/catalog/product/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/rss/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/page/home.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/page/contact.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/page/customer-service.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/etc/local.xml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/adminhtml/default/default/layout/catalog.xml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/var/importexport/catalog_product.csv",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/js/calendar/calendar-tas.css",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Feed/Pubsubhubbub/CallbackAbstract.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/cron.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/base/default/template/catalog/product/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/adminhtml/default/default/template/backup/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/code/core/Mage/Tag/controllers/ListController.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/js/tiny_mce/classes/LegacyInput.js",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/base/default/template/tag/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/base/default/template/rss/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Markup/Renderer/Html/List.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/PEAR/HTTP/Request/Listener.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Service/Simpy/LinkSet.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/page/html/head.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/base/default/template/page/html/head.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/adminhtml/default/default/template/page/head.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/code/core/Mage/Adminhtml/Block/Page/Head.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/page/html/header.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/downloader/template/header.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/downloader/Maged/Controller.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/downloader/config.ini",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Pdf/Resource/Font/Simple/Standard/CourierOblique.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/base/default/template/page/html/footer.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/adminhtml/default/default/template/page/footer.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/code/core/Mage/Page/Block/Html/Footer.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/code/core/Mage/Adminhtml/Block/Page/Footer.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/downloader/template/install/footer.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/downloader/template/footer.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/js/main.js",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/pkginfo/Mage_All.txt",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Gdata/YouTube/Extension/Hometown.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/base/default/template/reports/home_product_compared.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/View/Helper/HtmlObject.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/default/modern/layout/contacts.xml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/default/iphone/layout/contacts.xml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/layout/contacts.xml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/base/default/layout/contacts.xml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/locale/en_US/template/email/contact_form.html",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Gdata/YouTube/ContactFeed.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Gdata/YouTube/ContactEntry.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Memory/Container.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Service/Amazon/CustomerReview.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/skin/adminhtml/default/default/custom.css",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/locale/en_US/template/email/currency_update_warning.html",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/page/about.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/page/trade-professionals.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/js/mage/translate.js",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Locale/Data/tt_RU.xml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/downloader/target.xml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/cms/content_heading.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/layout/shipping.xml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/davis_sales.sublime-project",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Test/DbAdapter.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Service/Technorati/DailyCountsResult.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/downloader/template/install/header.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Feed/Builder/Header.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/View/Helper/HeadLink.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/View/Helper/HeadMeta.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/View/Helper/HeadScript.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/View/Helper/HeadStyle.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/View/Helper/HeadTitle.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/code/core/Mage/Page/Block/Html/Head.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/code/core/Mage/Adminhtml/Block/Page/Header.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Filter/HtmlEntities.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/.git/MERGE_MSG",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/code/core/Mage/XmlConnect/Block/Adminhtml/Connect/Dashboard/LastOrders.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/LICENSE.html",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Gdata/YouTube/Extension/AboutMe.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/js/tiny_mce/themes/advanced/js/about.js",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/js/tiny_mce/themes/advanced/about.htm",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/adminhtml/default/default/template/oauth/authorize/button-simple.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/code/core/Mage/Bundle/sql/bundle_setup/mysql4-data-upgrade-0.1.13-0.1.14.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/base/default/template/oauth/authorize/button-simple.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Locale/Data/ar_BH.xml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/api.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/etc/modules/Page_CustomerService.xml",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/skin/frontend/davissales/default/css/styles.css",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/skin/adminhtml/default/default/xmlconnect/styles.css",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/js/tiny_mce/classes/html/Styles.js",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/errors/default/css/styles.css",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Pdf/Style.php",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Filter/StripTags.php",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/davis_sales.sublime-project",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/adminhtml/default/default/template/newsletter/subscriber/list.phtml",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/adminhtml/default/default/template/newsletter/queue/list.phtml",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/adminhtml/default/default/template/newsletter/problem/list.phtml",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/default/iphone/template/tag/list.phtml",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/tag/list.phtml",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/rss/list.phtml",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/base/default/template/tag/list.phtml",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/base/default/template/rss/list.phtml",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/adminhtml/default/default/template/backup/list.phtml",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Markup/Renderer/Html/List.php",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/PEAR/HTTP/Request/Listener.php",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Service/Simpy/LinkSet.php",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/js/tiny_mce/classes/LegacyInput.js",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/LICENSE.html",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/js/varien/product.js",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/locale/en_US/template/email/product_share.html",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/errors/processor.php",
@@ -168,82 +243,7 @@
 		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/page-case.php",
 		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/Emmet/Default (OSX).sublime-keymap",
 		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/sidebar.php",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/logo.png",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/style.css.map",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/functions.php",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/hatchit/custom-functions.php",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/areas-featured.png",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/css/bootstrap.css",
-		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1384195177/yoloclients/home3/yolocli1/public_html/sigma/wp-config.php",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/scss/main.scss",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/css/main.css",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/js/respond.js",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/js/html5shiv.js",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/scss/partials/_base.scss",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/scss/partials/_typography.scss",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/scss/partials/_fontface.scss",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/content.php",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/search.php",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/profile.png",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/stripe-border.png",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/tw.png",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/clay.jpg",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/pen.png",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/orange-border.png",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/ln.png",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/medical.jpg",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/header-bg.jpg",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/gp.png",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/intro.jpg",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/favicon.ico",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/css/flex.css",
-		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/js/plugins.js",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/footer.php",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/scss/partials/_mixins.scss",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/page-profile.php",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/page-news.php",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/hatchit/custom-functions.php",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/page-footer.php",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/page-practice.php",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/css/main.css",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/scss/main.scss",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/style.css",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/single.php",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/js/main.js",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/post-sidebar.php",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/functions.php",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/aside-sidebar.php",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/page-case.php",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/page-espanol.php",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/page-home.php",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/page-contact.php",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/content.php",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/header.php",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/js/plugins.js",
-		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/wptitleattr.sublime-snippet",
-		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/sub.sublime-snippet",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/scss/partials/_typography.scss",
-		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/triangle.sublime-snippet",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/scss/partials/_base.scss",
-		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/os.sublime-snippet",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/books.png",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/boom.png",
-		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/left.sublime-snippet",
-		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/uppercase.sublime-snippet",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/areas-featured.png",
-		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/transition.sublime-snippet",
-		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/extend.sublime-snippet",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/form-box.png",
-		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/box.sublime-snippet",
-		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/button.sublime-snippet",
-		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/button.sublime-text",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/scss/partials/_colors.scss",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/clay.jpg",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/profile.png",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/chat.png",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/fb.png",
-		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/ln.png",
-		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/border.sublime-snippet"
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/logo.png"
 	],
 	"find":
 	{
@@ -261,6 +261,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\n        ",
+			"8765",
+			"css",
 			"class=\"main",
 			"92cdcf",
 			"#searchform",
@@ -385,10 +388,7 @@
 			"the_ID",
 			"footer_message",
 			"log",
-			"section",
-			"h1",
-			"section",
-			"post"
+			"section"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -467,6 +467,98 @@
 		"selected_items":
 		[
 			[
+				"cataloglist",
+				"app/design/frontend/davissales/default/template/catalog/product/list.phtml"
+			],
+			[
+				"cataloglist.phtml",
+				"app/design/frontend/davissales/default/template/catalog/product/list.phtml"
+			],
+			[
+				"list.phtml",
+				"app/design/frontend/davissales/default/template/rss/list.phtml"
+			],
+			[
+				"list.pht",
+				"app/design/adminhtml/default/default/template/backup/list.phtml"
+			],
+			[
+				"head.pht",
+				"app/design/frontend/davissales/default/template/page/html/head.phtml"
+			],
+			[
+				"homeph",
+				"app/design/frontend/davissales/default/template/page/home.phtml"
+			],
+			[
+				"contact",
+				"app/design/frontend/davissales/default/template/page/contact.phtml"
+			],
+			[
+				"home",
+				"app/design/frontend/davissales/default/template/page/home.phtml"
+			],
+			[
+				"footer",
+				"app/design/frontend/davissales/default/template/page/html/footer.phtml"
+			],
+			[
+				"head.p",
+				"app/design/frontend/davissales/default/template/page/html/head.phtml"
+			],
+			[
+				"maincss",
+				"css/main.css"
+			],
+			[
+				"homepht",
+				"app/design/frontend/davissales/default/template/page/home.phtml"
+			],
+			[
+				"maincs",
+				"css/main.css"
+			],
+			[
+				"customer-se",
+				"app/design/frontend/davissales/default/template/page/customer-service.phtml"
+			],
+			[
+				"trade",
+				"app/design/frontend/davissales/default/template/page/trade-professionals.phtml"
+			],
+			[
+				"custom",
+				"app/design/frontend/davissales/default/template/page/customer-service.phtml"
+			],
+			[
+				"header",
+				"app/design/frontend/davissales/default/template/page/html/header.phtml"
+			],
+			[
+				"davissaleshead.",
+				"app/design/frontend/davissales/default/template/page/html/head.phtml"
+			],
+			[
+				"head.phtml",
+				"app/design/adminhtml/default/default/template/page/head.phtml"
+			],
+			[
+				"localxml",
+				"app/etc/local.xml"
+			],
+			[
+				"about",
+				"app/design/frontend/davissales/default/template/page/about.phtml"
+			],
+			[
+				"customerserv",
+				"app/design/frontend/davissales/default/template/page/customer-service.phtml"
+			],
+			[
+				"main.scs",
+				"css/main.css"
+			],
+			[
 				"styles",
 				"skin/frontend/davissales/default/css/styles.css"
 			],
@@ -511,10 +603,6 @@
 				"footer.php"
 			],
 			[
-				"home",
-				"page-home.php"
-			],
-			[
 				"news",
 				"page-news.php"
 			],
@@ -541,10 +629,6 @@
 			[
 				"single",
 				"single.php"
-			],
-			[
-				"footer",
-				"page-footer.php"
 			],
 			[
 				"page-",
@@ -599,10 +683,6 @@
 				"page-case.php"
 			],
 			[
-				"contact",
-				"page-contact.php"
-			],
-			[
 				"styl",
 				"style.css"
 			],
@@ -639,10 +719,6 @@
 				"hatchit/custom-functions.php"
 			],
 			[
-				"header",
-				"header.php"
-			],
-			[
 				"font",
 				"scss/partials/_fontface.scss"
 			],
@@ -677,10 +753,6 @@
 			[
 				"pag",
 				"page-espanol.php"
-			],
-			[
-				"custom",
-				"hatchit/custom-functions.php"
 			],
 			[
 				"plu",
@@ -753,10 +825,6 @@
 			[
 				"cu",
 				"hatchit/custom-functions.php"
-			],
-			[
-				"main.scs",
-				"scss/main.scss"
 			],
 			[
 				"profi",
@@ -919,7 +987,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 231.0,
 	"status_bar_visible": true,
 	"template_settings":

@@ -36,7 +36,9 @@ Default layout, loads most of the pages
 
         <!-- Mage_Newsletter -->
         <reference name="left">
-            <block type="catalog/navigation" name="catalog.leftnav" template="catalog/navigation/left_nav.phtml" />
+            <!-- <block type="catalog/navigation" name="catalog.leftnav" template="catalog/navigation/left_nav.phtml" /> -->
+<block type="reports/product_viewed" name="product.recently.viewed" as="product_recently_viewed" template="reports/product_viewed.phtml"/>
+            
 </reference>
 
     </default>

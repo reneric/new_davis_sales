@@ -46,18 +46,19 @@ Default layout, loads most of the pages
 
         <!-- Mage_Catalog -->
         <reference name="left">
+<block  type="catalog/navigation" name="catalog.leftnav"  before="-" template="catalog/navigation/left.phtml"/>
+            <block type="catalog/product_compare_sidebar" before="cart_sidebar" name="catalog.compare.sidebar" template="catalog/product/compare/sidebar.phtml"/>
+
             <block type="core/template" name="left.permanent.callout" template="callouts/left_col.phtml">
-                <block  type="catalog/navigation" name="catalog.leftnav"  before="-" template="catalog/navigation/left.phtml"/>
-<block type="catalog/navigation" name="catalog.leftnav" template="catalog/navigation/left_nav.phtml" />
+                
+<!-- <block type="catalog/navigation" name="catalog.leftnav" template="catalog/navigation/left_nav.phtml" /> -->
+<!-- <block type="reports/product_viewed" name="product.recently.viewed" as="product_recently_viewed" template="reports/product_viewed.phtml"/> -->
+
             </block>
             
         </reference>
-        <reference name="right">
-            <block type="catalog/product_compare_sidebar" before="cart_sidebar" name="catalog.compare.sidebar" template="catalog/product/compare/sidebar.phtml"/>
-            <block type="core/template" name="right.permanent.callout" template="callouts/right_col.phtml">
-                <action method="setImgSrc"><src>images/media/col_right_callout.jpg</src></action>
-                <action method="setImgAlt" translate="alt" module="catalog"><alt>Keep your eyes open for our special Back to School items and save A LOT!</alt></action>
-            </block>
+        <reference name="left">
+            
         </reference>
         <reference name="footer_links">
             <action method="addLink" translate="label title" module="catalog" ifconfig="catalog/seo/site_map"><label>Site Map</label><url helper="catalog/map/getCategoryUrl" /><title>Site Map</title></action>

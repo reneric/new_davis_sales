@@ -52,7 +52,9 @@ $_category = Mage::getModel('catalog/category')->load(CATEGORY-ID);
         <div id="main" class="about">
         <div class="container about-page clearfix">
                 <?php echo $this->getChildHtml('breadcrumbs') ?>
+                <h1 class="products-page-title">Products</h1>
                 <div class="col-lefts sidebar col-xs-4"><?php echo $this->getChildHtml('left') ?></div>
+                
                 <div class="col-mains col-xs-8">
                     <?php echo $this->getChildHtml('global_messages') ?>
                     <?php echo $this->getChildHtml('content') ?>
