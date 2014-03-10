@@ -936,9 +936,9 @@ font-size: 18px;
 .products-grid.last { border-bottom:0; }
 .products-grid li.item { float:left; padding: 0 20px 0 0; margin: 5px 0px 0px; position: relative; /* height: 300px; */}
 .products-grid .product-image { display:block; width:100%; /* height: 300px; */ margin: 0 0 10px; /* position: absolute; */ top: 0; bottom: 0; padding: 0; background-color: #f6f6f6;}
-.products-grid .product-name { /*min-height:2.7em;*/ margin: 7px 0 5px 12px; font-weight:bold; font-size:13px; color:#203548; position: absolute; top: 0;}
+.products-grid .product-name { /*min-height:2.7em;*/ margin: 7px 0 5px 12px; font-weight:bold; font-size:13px; color:#203548; position: absolute; top: 0;width:207px;}
 .products-grid .product-name a { color:#203548; font-size: 17px;}
-.products-grid .price-box { margin: 5px 0 0 12px; position: absolute; top: 20px;}
+.products-grid .price-box { margin: 25px 0 0 12px; position: absolute; top: 20px;}
 .products-grid .availability { line-height:21px; }
 .products-grid .actions { position:absolute; bottom: 24px; width: 100%; margin-left: -10px;}
 .col2-left-layout .products-grid,
