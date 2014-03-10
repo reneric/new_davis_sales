@@ -37,6 +37,12 @@
     var optionsPrice = new Product.OptionsPrice(<?php echo $this->getJsonConfig() ?>);
 </script>
 <div id="messages_product_view"><?php echo $this->getMessagesBlock()->getGroupedHtml() ?></div>
+<div class="product-header">
+<h1 class="single-product-title"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h1>
+<div class="single-price">
+<?php echo Mage::helper('core')->currency(number_format($_product->getPrice(),2));?>
+</div><!-- price -->
+</div><!-- product-header -->
 <div class="product-view">
     <div class="product-essential">
     <form action="<?php echo $this->getSubmitUrl($_product) ?>" method="post" id="product_addtocart_form"<?php if($_product->getOptions()): ?> enctype="multipart/form-data"<?php endif; ?>>
@@ -48,7 +54,7 @@
 
         <div class="product-shop">
             <div class="product-name">
-                <h1><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h1>
+                
             </div>
 
             <?php if ($this->canEmailToFriend()): ?>
@@ -93,15 +99,18 @@
 
         </div>
 
-        <div class="product-img-box">
+        <div class="product-img-box col-xs-6">
             <?php echo $this->getChildHtml('media') ?>
         </div>
-
+<div class="product-collateral col-xs-6">
+        <?php echo $this->getChildHtml('info_tabs') ?>
+</div>
         <div class="clearer"></div>
         <?php if ($_product->isSaleable() && $this->hasOptions()):?>
             <?php echo $this->getChildChildHtml('container2', '', true, true) ?>
         <?php endif;?>
     </form>
+    </div>
     <script type="text/javascript">
     //<![CDATA[
         var productAddToCartForm = new VarienForm('product_addtocart_form');
@@ -155,16 +164,5 @@
     </script>
     </div>
 
-    <div class="product-collateral">
-<?php foreach ($this->getChildGroup('detailed_info', 'getChildHtml') as $alias => $html):?>
-        <div class="box-collateral <?php echo "box-{$alias}"?>">
-            <?php if ($title = $this->getChildData($alias, 'title')):?>
-            <h2><?php echo $this->escapeHtml($title); ?></h2>
-            <?php endif;?>
-            <?php echo $html; ?>
-        </div>
-<?php endforeach;?>
-        <?php echo $this->getChildHtml('upsell_products') ?>
-        <?php echo $this->getChildHtml('product_additional_data') ?>
-    </div>
-</div>
+    
+
