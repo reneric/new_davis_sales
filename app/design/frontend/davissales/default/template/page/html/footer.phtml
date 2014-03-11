@@ -45,8 +45,8 @@
         $('#product_tabs_description_contents').addClass('active')
         $('.product-tabs li').on('click', function(event) {
             event.preventDefault();
-            $(this).addClass('active')
             $('.product-tabs-content,.product-tabs li').removeClass('active');
+            $(this).addClass('active')
             $id = $(this).attr('id')
             $('#'+$id+'_contents').addClass('active')
         });
