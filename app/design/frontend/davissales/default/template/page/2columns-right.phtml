@@ -91,6 +91,16 @@
         <?php echo $this->getChildHtml('before_body_end') ?>
     </div>
 </div>
+<script>
+    jQuery(function($){
+        $('.product-tabs li').on('click', function(event) {
+            event.preventDefault();
+            $('.product-tabs-content').hide();
+            $id = $(this).attr('id')
+            $('#'+$id+'_content').show();
+        });
+    })
+</script>
 <?php echo $this->getAbsoluteFooter() ?>
 </body>
 </html>
