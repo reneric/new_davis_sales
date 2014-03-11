@@ -1346,6 +1346,12 @@ font-size: 45px;
 .product-view .box-up-sell.box-collateral .products-grid {}
 .product-view .box-up-sell.box-collateral .products-grid tr {
 }
+.product-view .box-up-sell.box-collateral .products-grid td .price-box{
+    
+}
+.product-view .box-up-sell.box-collateral .products-grid td h3.product-name {
+
+}
 .product-view .box-up-sell.box-collateral .products-grid td {
     border: 1px solid #ccc;
     display: block;
