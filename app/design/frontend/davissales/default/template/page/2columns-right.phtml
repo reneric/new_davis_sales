@@ -93,11 +93,12 @@
 </div>
 <script>
     jQuery(function($){
+        alert('test')
         $('.product-tabs li').on('click', function(event) {
             event.preventDefault();
             $('.product-tabs-content').hide();
             $id = $(this).attr('id')
-            $('#'+$id+'_content').show();
+            $('#'+$id+'_contents').show();
         });
     })
 </script>
