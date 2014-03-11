@@ -38,7 +38,7 @@ body.customer-account-login .col-mains{
 .product-tabs-content{
     display: none;
 }
-#product_tabs_description_contents,
+/*#product_tabs_description_contents,*/
 .product-tabs-content.active{
     display: block;
 }
