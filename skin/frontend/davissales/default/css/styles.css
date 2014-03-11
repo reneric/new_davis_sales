@@ -971,7 +971,8 @@ font-size: 18px;
     display:block;
 color: #4b4b4b; /* text color */
 font-size: 30px;
-text-shadow:0 0 3px rgba(255, 255, 255, 0.5);
+
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
 }
 
 /* View Type: List */
@@ -1346,12 +1347,18 @@ font-size: 45px;
 .product-view .box-up-sell.box-collateral .products-grid {}
 .product-view .box-up-sell.box-collateral .products-grid tr {
 }
+#upsell-product-table{}
 .product-view .box-up-sell.box-collateral .products-grid td .price-box span {
+    font-weight: 300;
 
+    font-size: 24px;
+    margin-top: 0;
+    text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.9);
 }
 .product-view .box-up-sell.box-collateral .products-grid td .price-box{
     opacity: 1;
     
+    top: 10px;
 }
 .product-view .box-up-sell.box-collateral .products-grid td h3.product-name {
     display: block;
