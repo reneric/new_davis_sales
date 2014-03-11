@@ -30,6 +30,14 @@ body          { /* background:#496778 url(../images/bkg_body.gif) 50% 0 repeat-y
 body{
     font-family: "museo-sans-rounded"; 
 }
+body.customer-account-login .col-mains{
+    float: none;
+
+    margin: 61px auto 70px;
+}
+body.customer-account-login .sidebar{
+    display: none;
+}
 img           { /* border:0; */ /* vertical-align:top; */ }
 
 a             { /* color:#1e7ec8; */ /* text-decoration: none; */ }
@@ -143,6 +151,12 @@ letter-spacing:0.03em;
     margin-right: 10px;
     padding: 0;
     margin-top: 6px;
+}
+form#login-form{
+    margin: 0 auto;
+    
+    display: block;
+    max-width: 700px;
 }
 /* Headings */
 h1,h2,h3,
@@ -1220,6 +1234,9 @@ font-size: 45px;
 .container{
     max-width:1024px;
 }
+.main-container.col2-right-layout{
+    margin-bottom:50px;
+}
 .product-view .product-img-box .product-image img{
     display:block;
     margin:0 auto;
@@ -1725,7 +1742,7 @@ font-size: 32px;
 
 
 /* Account Login/Create Pages ============================================================ */
-.account-login .content { min-height:345px; padding:14px 21px; background:#faf7ee url(../images/bkg_login-box.gif) 0 0 repeat-x; border:1px solid #bbb6a5; border-bottom:0; }
+.account-login .content { min-height:345px; padding:14px 21px; /* background:#faf7ee url(../images/bkg_login-box.gif) 0 0 repeat-x; */ border:1px solid #bbb6a5; border-bottom:0; }
 .account-login .content h2 { font-weight:bold; font-size:13px; margin:0 0 14px; padding:0 0 5px 23px; border-bottom:1px solid #ddd; background-position:0 1px; background-repeat:no-repeat; text-transform:uppercase; color:#e76200; }
 .account-login .new-users h2 { background-image:url(../images/i_page1.gif)}
 .account-login .registered-users h2 { background-image:url(../images/i_page2.gif); }

@@ -40,3 +40,14 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB); ?>/js/bootstrap.min.js"></script>
+    <script>
+    jQuery(function($){
+        alert('test')
+        $('.product-tabs li').on('click', function(event) {
+            event.preventDefault();
+            $('.product-tabs-content').hide();
+            $id = $(this).attr('id')
+            $('#'+$id+'_contents').show();
+        });
+    })
+</script>
