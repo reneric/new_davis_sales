@@ -1344,6 +1344,7 @@ font-size: 45px;
 .product-view .box-additional .data-table th,
 .product-view .box-additional .data-table td { line-height:1.25; }
 .box-collateral .products-grid {}
+.box-collateral .products-grid td {}
 .box-collateral .products-grid a {}
 .box-collateral .products-grid a img {}
 /* Block: Upsell */
