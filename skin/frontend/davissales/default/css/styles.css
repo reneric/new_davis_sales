@@ -1355,7 +1355,7 @@ font-size: 45px;
 .product-view .box-up-sell.box-collateral .products-grid td .price-box span {
     font-weight: 300;
 
-    font-size: 24px;
+    font-size: 21px;
     margin-top: 0;
     text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.9);
 }
@@ -1364,6 +1364,7 @@ font-size: 45px;
     
     top: 10px;
     margin-left: 0;
+    margin-top: 18px;
 }
 .product-view .box-up-sell.box-collateral .products-grid td h3.product-name {
     display: block;
@@ -1379,7 +1380,10 @@ font-size: 45px;
     background-color: transparent;
     margin: 0 5px 5px;
 }
-.product-view .box-up-sell.box-collateral .products-grid a {}
+.product-view .box-up-sell.box-collateral .products-grid a {
+    font-size: 12px;
+    margin-bottom: 0;
+}
 .product-view .box-up-sell.box-collateral .products-grid a img {
     border: none;
 }
