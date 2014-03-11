@@ -35,6 +35,12 @@ body.customer-account-login .col-mains{
 
     margin: 61px auto 70px;
 }
+.product-tabs-content{
+    display: none;
+}
+.product-tabs-content.active{
+    display: block;
+}
 body.customer-account-login .sidebar{
     display: none;
 }
