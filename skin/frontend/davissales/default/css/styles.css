@@ -35,7 +35,10 @@ body.customer-account-login .col-mains{
 
     margin: 61px auto 70px;
 }
-.addthis_toolbox {}
+.addthis_toolbox {
+    width: 250px;
+    margin: 0 auto;
+}
 .product-tabs-content{
     display: none;
 }
