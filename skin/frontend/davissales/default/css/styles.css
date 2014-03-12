@@ -222,6 +222,9 @@ form#webform_1{
 font-size: 43px;
 
 }
+.resources .resource-row{
+    margin-bottom: 25px;
+}
 form#webform_1 #fieldset_2.fieldset {
     padding-left: 20px;
 }
