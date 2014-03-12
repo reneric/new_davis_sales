@@ -47,7 +47,15 @@
 			"file": "skin/frontend/davissales/default/css/styles.css",
 			"settings":
 			{
-				"buffer_size": 103563,
+				"buffer_size": 115510,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/design/frontend/davissales/default/template/page/contact.phtml",
+			"settings":
+			{
+				"buffer_size": 7573,
 				"line_ending": "Unix"
 			}
 		},
@@ -95,9 +103,21 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 374.0,
+		"height": 140.0,
 		"selected_items":
 		[
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git add ",
+				"Git: Add Current File"
+			],
 			[
 				"in",
 				"Package Control: Install Package"
@@ -164,6 +184,21 @@
 	},
 	"file_history":
 	[
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/get.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Locale/Data/ga_IE.xml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/.gitignore",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/code/core/Mage/GoogleBase/controllers/ItemsController.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/code/core/Mage/CatalogInventory/Block/Stockqty/Composite.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/code/core/Mage/Wishlist/Block/Customer/Wishlist/Item/Column/Comment.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Mage/Connect/Repository/Channel/Community.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/code/core/Mage/Contacts/sql/contacts_setup/mysql4-install-0.7.1.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/downloader/Maged/Controller.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/downloader/config.ini",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Pdf/Resource/Font/Simple/Standard/CourierOblique.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/cron.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Gdata/YouTube/ContactEntry.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/page/contact.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/fertility_wordpress/wp-content/themes/twentyfourteen/content-page.php",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/page/1column.phtml",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/base/default/template/page/2columns-right.phtml",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/page/2columns-right.phtml",
@@ -186,17 +221,9 @@
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/downloader/template/footer.phtml",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Filter/StripTags.php",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/page/html/footer.phtml",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/.gitignore",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Gdata/DublinCore/Extension/Identifier.php",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Gdata/Gbase/ItemEntry.php",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Locale/Data/ga_IE.xml",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/get.php",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/catalog/product/view/tabs.phtml",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/page/contact.phtml",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/downloader/Maged/Controller.php",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/downloader/config.ini",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Pdf/Resource/Font/Simple/Standard/CourierOblique.php",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/cron.php",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/adminhtml/default/default/template/widget/tabs.phtml",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/adminhtml/default/default/template/system/config/tabs.phtml",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/code/core/Mage/XmlConnect/Model/Tabs.php",
@@ -278,20 +305,13 @@
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/base/default/layout/contacts.xml",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/locale/en_US/template/email/contact_form.html",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Gdata/YouTube/ContactFeed.php",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Gdata/YouTube/ContactEntry.php",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Memory/Container.php",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/page/about.phtml",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/page/trade-professionals.phtml",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/js/mage/translate.js",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Locale/Data/tt_RU.xml",
 		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/cms/content_heading.phtml",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/layout/shipping.xml",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Service/Technorati/DailyCountsResult.php",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/downloader/template/install/header.phtml",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Feed/Builder/Header.php",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/View/Helper/HeadLink.php",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/View/Helper/HeadMeta.php",
-		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/View/Helper/HeadScript.php"
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/layout/shipping.xml"
 	],
 	"find":
 	{
@@ -309,6 +329,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".fieldset",
+			"toolbar",
+			"single",
+			"marker_panel",
+			"$",
+			"$(",
+			"$",
+			"#markerOptions li",
+			"legend",
+			"form.w",
+			"form.",
 			"right",
 			"sidebar",
 			"\n        ",
@@ -425,18 +456,7 @@
 			"#photo",
 			"street_address",
 			":    ",
-			"     $",
-			":         ",
-			"         ",
-			"<h5>",
-			"h1",
-			"get_the_id",
-			",5",
-			"h5",
-			"5",
-			"get_the_ID",
-			"the_ID",
-			"footer_message"
+			"     $"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -464,31 +484,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 103563,
+						"buffer_size": 115510,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								55462,
-								55462
-							],
-							[
-								55467,
-								55467
-							],
-							[
-								55472,
-								55472
-							],
-							[
-								55477,
-								55477
-							],
-							[
-								55482,
-								55482
+								115186,
+								115186
 							]
 						],
 						"settings":
@@ -545,7 +549,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 27360.0,
+						"translation.y": 52245.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -553,6 +557,83 @@
 				},
 				{
 					"buffer": 1,
+					"file": "app/design/frontend/davissales/default/template/page/contact.phtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7573,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7416,
+								7428
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4346.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "app/design/frontend/davissales/default/template/page/html/footer.phtml",
 					"semi_transient": false,
 					"settings":
@@ -573,10 +654,18 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -585,6 +674,18 @@
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -592,27 +693,7 @@
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
-								"bh_default_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close"
+								"bh_default_close"
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
@@ -622,14 +703,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 535.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "app/design/frontend/davissales/default/template/review/product/view/list.phtml",
 					"semi_transient": false,
 					"settings":
@@ -702,11 +783,11 @@
 						"translation.y": 814.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "app/design/frontend/davissales/default/template/page/home.phtml",
 					"semi_transient": false,
 					"settings":
@@ -779,11 +860,11 @@
 						"translation.y": 941.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "app/design/frontend/davissales/default/template/page/customer-service.phtml",
 					"semi_transient": false,
 					"settings":
@@ -856,11 +937,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "app/design/frontend/davissales/default/template/catalog/product/view.phtml",
 					"semi_transient": false,
 					"settings":
@@ -933,7 +1014,7 @@
 						"translation.y": 1950.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -994,6 +1075,14 @@
 		"selected_items":
 		[
 			[
+				"contact",
+				"app/design/frontend/davissales/default/template/page/contact.phtml"
+			],
+			[
+				"contactphtm",
+				"app/design/frontend/davissales/default/template/page/contact.phtml"
+			],
+			[
 				"2",
 				"app/design/frontend/davissales/default/template/page/2columns-right.phtml"
 			],
@@ -1028,10 +1117,6 @@
 			[
 				"davissalestab",
 				"app/design/frontend/davissales/default/template/catalog/product/view/tabs.phtml"
-			],
-			[
-				"contact",
-				"app/design/frontend/davissales/default/template/page/contact.phtml"
 			],
 			[
 				"davissalestabs.phtml",
@@ -1500,10 +1585,6 @@
 			[
 				"en",
 				"hatchit/enqueue.php"
-			],
-			[
-				"live",
-				"css/live.css"
 			]
 		],
 		"width": 0.0
