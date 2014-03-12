@@ -213,7 +213,9 @@ form#webform_1{
     overflow: hidden;
     display: block;
 }
-
+#markerOptions li{
+    text-align: left;
+}
 form#webform_1 #fieldset_2.fieldset {
     padding-left: 20px;
 }
