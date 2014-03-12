@@ -212,11 +212,11 @@ $j(document).ready(function()
           
       });
   });
-$(function(){
-    $contact = $('.contact-page')
+$j(document).ready(function()
+    $contact = $j('.contact-page')
     $contact_pos = $contact.offset();
     setTimeout(function(){
-        $marker_panel = $('#markerOptions').css({
+        $marker_panel = $j('#markerOptions').css({
             left: $contact_pos.left,
             opacity: '1'
         });
