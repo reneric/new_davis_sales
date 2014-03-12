@@ -2388,6 +2388,9 @@ margin: 22px 0 50px;
 .block-account{
     display:none;
 }
+.button.btn-add{
+    display: none;
+}
 .product-image img{
     max-width: 100%;
     height:auto;
