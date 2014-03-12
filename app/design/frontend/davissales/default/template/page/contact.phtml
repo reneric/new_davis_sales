@@ -116,10 +116,10 @@ $j(document).ready(function(){
     map.panTo(latLng);
 }
  
-$('#markerOptions li').on('click', function(event) {
+$j('#markerOptions li').on('click', function(event) {
   event.preventDefault();
-  $lat = $(this).data('lat');
-  $lng = $(this).data('lng');
+  $lat = $j(this).data('lat');
+  $lng = $j(this).data('lng');
   pan_to($lat,$lng)
 });
   function initialize() {
@@ -197,16 +197,17 @@ $('#markerOptions li').on('click', function(event) {
 
 // map.offsetCenter(new google.maps.LatLng (29.95134635974806,-90.07123947143555),1350,0);  
   google.maps.event.addDomListener(window, "load", initialize);
+var $j = jQuery.noConflict(); 
+
+
 
   // map.setCenter(new google.maps.LatLng(29.95134635974806,-90.07123947143555));
-  
-
-
-
+  $j(document).ready(function(){
+  {
       $j('#markerOptions li').on('click', function()
       {
           $j('#markerOptions li').removeClass('selectedMarker');
-          $(this).addClass('selectedMarker');
+          $j(this).addClass('selectedMarker');
           var markerId = $j(this).attr('data-marker');
           var lat = markers[markerId].position.lat();
           var lng = markers[markerId].position.lng();
@@ -216,7 +217,7 @@ $('#markerOptions li').on('click', function(event) {
           
       });
   });
-// $(function(){
+$j(document).ready(function(){
     $contact = $j('.contact-page')
     $contact_pos = $contact.offset();
     setTimeout(function(){
