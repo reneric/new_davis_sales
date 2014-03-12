@@ -2390,6 +2390,7 @@ margin: 22px 0 50px;
 }
 .product-image img{
     max-width: 100%;
+    height:auto;
 }
 /*form#webform_1 .fieldset .form-list li .input-box,*/
 .form-list input.input-text,
