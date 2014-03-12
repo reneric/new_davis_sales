@@ -52,6 +52,9 @@ font-size: 43px;
 border: none;
 text-indent: 15px;
 font-weight: 100;
+    display: block;
+    text-align: left;
+    margin: 130px 0 0;
 }
 .contact-page p,.page-title{
     display:none;
@@ -209,7 +212,16 @@ form#webform_1{
     overflow: hidden;
     display: block;
 }
-form#webform_1 .fieldset {}
+
+form#webform_1 #fieldset_2.fieldset {
+    padding-left: 20px;
+}
+form#webform_1 #fieldset_1.fieldset {
+    padding-right: 20px;
+}
+form#webform_1 .fieldset {
+    padding: 0;
+}
 form#webform_1 .fieldset .form-list {}
 form#webform_1 .fieldset .form-list li {}
 .form-list li.wide textarea{
