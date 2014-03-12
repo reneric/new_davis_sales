@@ -38,6 +38,7 @@ body.customer-account-login .col-mains{
 .addthis_toolbox {
     width: 250px;
     margin: 0 auto;
+    height:32px;
 }
 .product-tabs-content{
     display: none;
@@ -1256,7 +1257,15 @@ font-size: 45px;
     margin:0 auto;
 }
 /* Product Images */
-.product-view .product-img-box { float:left; /* width:267px; */ padding: 0;}
+.product-view .product-img-box { 
+    float:left; /* width:267px; */ 
+    padding: 0;
+    
+    
+    
+    
+    
+}
 .col3-layout .product-view .product-img-box { float:none; margin:0 auto; }
 .product-view .product-img-box .product-image { margin: 0 30px 13px 0; }
 .product-view .product-img-box .product-image-zoom { position:relative; width:265px; height:265px; overflow:hidden; z-index:9; }
