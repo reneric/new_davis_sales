@@ -106,10 +106,6 @@
 <?php echo $this->getAbsoluteFooter() ?>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAP5C7S7y6Nxl7WfgLOfKXRRAyGjR4YET0&sensor=true"></script>
 <script type="text/javascript">
-var $j = jQuery.noConflict(); 
-
-$j(document).ready(function(){
-  
   markers = [];
   function pan_to(lat,lng) { //just omit the 'lati' and 'long'
     var latLng = new google.maps.LatLng(lat, lng);
