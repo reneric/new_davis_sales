@@ -23,16 +23,145 @@
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 /* Reset ================================================================================= */
-* { margin:0; padding:0; }
+body          { /* background:#496778 url(../images/bkg_body.gif) 50% 0 repeat-y; */ /* font:12px/1.55 Arial, Helvetica, sans-serif; */ /* color:#2f2f2f; */ /* text-align:center; */ }
+body{
+    font-family: "museo-sans-rounded"; 
+}
+body.customer-account-login .col-mains{
+    float: none;
 
-body          { /* background:#496778 url(../images/bkg_body.gif) 50% 0 repeat-y; */ font:12px/1.55 Arial, Helvetica, sans-serif; color:#2f2f2f; text-align: left; }
+    margin: 61px auto 70px;
+}
+.product-tabs-content{
+    display: none;
+}
+/*#product_tabs_description_contents,*/
+.product-tabs-content.active{
+    display: block;
+}
+body.customer-account-login .sidebar{
+    display: none;
+}
+img           { /* border:0; */ /* vertical-align:top; */ }
 
-img           { border:0; vertical-align:top; }
-
-a             { color:#1e7ec8; /* text-decoration:underline; */ }
+a             { /* color:#1e7ec8; */ /* text-decoration: none; */ }
 a:hover       { text-decoration:none; }
-:focus        { outline: 0; }
+:focus        { outline:0; }
+.section-header h1{
+    font-size: 36px;
+}
+.resource-row{
+    margin-bottom: 40px;
+}
 
+.products-grid .product-name,
+.products-grid .price-box,
+.products-grid .actions{
+    opacity:0;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -ms-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+.products-grid li.item img{
+    width: 217px;
+    margin: 0;
+    padding: 0;
+    height: 282px;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -ms-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+.products-grid li.item:hover img{
+    opacity:.4;
+    
+}
+.products-grid li.item:hover .product-name,
+.products-grid li.item:hover .price-box,
+.products-grid li.item:hover .actions{
+    opacity:1;
+}
+
+.product-tabs li.active a{
+    color: #fff; /* text color */
+    background-color: #006f3c; /* layer fill content */
+}
+.product-tabs li a{
+text-transform: uppercase;
+padding: 4px 8px;
+font-size: 11px;
+letter-spacing:0.02em;
+font-weight:600;
+height: 25px;
+color: #4b4b4b; /* text color */
+
+
+
+}
+.product-tabs-content h2{display: none;}
+.product-tabs-content .std{
+    color: #4b4b4b; /* text color */
+
+font-weight: 300;
+
+    font-size: 14px;
+
+    line-height: 20px;
+    margin-top: 23px;
+}
+.product-tabs {
+    padding: 0;
+border-bottom: 1px solid #878787; /* layer fill content */
+
+    height: 20px;
+}
+.product-tabs li{
+    display:inline;
+}
+.product-header{
+    width:100%;
+    height:50px;
+    border-bottom:4px double #000;
+    margin-bottom: 22px;
+}
+.product-header .single-product-title{
+    float:left;
+}
+.single-price{
+    color: #eac73e; /* text color */
+    float:right;
+font-size: 44px;
+line-height:36px;
+font-weight:bold;
+letter-spacing:0.03em;
+
+}
+.top-toolbar .pager .pages{
+    display:none;
+}
+.col-mains{
+    padding:0;
+    margin: 0 0 0 10px;
+    width: 692px;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color:#b1b2b5;
+}
+.col-lefts.sidebar{
+    max-width:280px;
+    margin-right: 10px;
+    padding: 0;
+    margin-top: 6px;
+}
+form#login-form{
+    margin: 0 auto;
+    
+    display: block;
+    max-width: 700px;
+}
 /* Headings */
 h1,h2,h3,
 h4,h5,h6      { margin:0 0 5px; line-height:1.35; color:#0a263c; }
