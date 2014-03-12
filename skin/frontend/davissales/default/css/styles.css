@@ -1467,6 +1467,9 @@ font-size: 45px;
 .container{
     max-width:1024px;
 }
+body.cms-home .marketing.container{
+    max-width:1024px;
+}
 .main-container.col2-right-layout{
     margin-bottom:50px;
 }
