@@ -106,6 +106,10 @@
 <?php echo $this->getAbsoluteFooter() ?>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAP5C7S7y6Nxl7WfgLOfKXRRAyGjR4YET0&sensor=true"></script>
 <script type="text/javascript">
+var $j = jQuery.noConflict(); 
+
+$j(document).ready(function(){
+
   markers = [];
   function pan_to(lat,lng) { //just omit the 'lati' and 'long'
     var latLng = new google.maps.LatLng(lat, lng);
@@ -195,13 +199,15 @@ $('#markerOptions li').on('click', function(event) {
   google.maps.event.addDomListener(window, "load", initialize);
 
   // map.setCenter(new google.maps.LatLng(29.95134635974806,-90.07123947143555));
-  $(document).ready(function()
-  {
-      $('#markerOptions li').on('click', function()
+  
+
+
+
+      $j('#markerOptions li').on('click', function()
       {
-          $('#markerOptions li').removeClass('selectedMarker');
+          $j('#markerOptions li').removeClass('selectedMarker');
           $(this).addClass('selectedMarker');
-          var markerId = $(this).attr('data-marker');
+          var markerId = $j(this).attr('data-marker');
           var lat = markers[markerId].position.lat();
           var lng = markers[markerId].position.lng();
           map.setCenter(new google.maps.LatLng(lat, lng));
@@ -210,11 +216,11 @@ $('#markerOptions li').on('click', function(event) {
           
       });
   });
-$(function(){
-    $contact = $('.contact-page')
+// $(function(){
+    $contact = $j('.contact-page')
     $contact_pos = $contact.offset();
     setTimeout(function(){
-        $marker_panel = $('#markerOptions').css({
+        $marker_panel = $j('#markerOptions').css({
             left: $contact_pos.left,
             opacity: '1'
         });
