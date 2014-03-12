@@ -2388,6 +2388,9 @@ margin: 22px 0 50px;
 .block-account{
     display:none;
 }
+.product-image img{
+    max-width: 100%;
+}
 /*form#webform_1 .fieldset .form-list li .input-box,*/
 .form-list input.input-text,
 .form-list li.wide input {
