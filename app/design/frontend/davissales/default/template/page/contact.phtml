@@ -211,12 +211,11 @@ $j(document).ready(function()
           map.setZoom(14);
           
       });
-  });
-$j(document).ready(function()
+
     var contact = $j('.contact-page')
      var contact_pos = contact.offset();
     setTimeout(function(){
-        $marker_panel = $j('#markerOptions').css({
+        var marker_panel = $j('#markerOptions').css({
             left: contact_pos.left,
             opacity: '1'
         });
