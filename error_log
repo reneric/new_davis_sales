@@ -1,0 +1,84 @@
+[11-Mar-2014 19:26:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Select.php on line 475
+[11-Mar-2014 20:41:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Adapter/Abstract.php on line 574
+[11-Mar-2014 20:52:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/yolocli1/public_html/davis_sales/lib/Varien/Db/Select.php on line 123
+[11-Mar-2014 20:54:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/yolocli1/public_html/davis_sales/app/code/core/Mage/Catalog/Helper/Product/Url.php on line 129
+[11-Mar-2014 20:58:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Adapter/Abstract.php on line 595
+[11-Mar-2014 21:02:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/yolocli1/public_html/davis_sales/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 0
+[11-Mar-2014 21:05:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Adapter/Abstract.php on line 1046
+[11-Mar-2014 21:10:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Adapter/Abstract.php on line 1046
+[11-Mar-2014 21:43:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/yolocli1/public_html/davis_sales/app/code/core/Mage/Catalog/Helper/Product/Url.php on line 129
+[11-Mar-2014 21:45:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php on line 253
+[11-Mar-2014 21:48:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/yolocli1/public_html/davis_sales/app/code/core/Mage/Catalog/Helper/Product/Url.php on line 129
+[11-Mar-2014 21:51:26 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/yolocli1/public_html/davis_sales/lib/Varien/Object.php on line 625
+[11-Mar-2014 22:06:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php on line 228
+[11-Mar-2014 22:11:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Adapter/Abstract.php on line 868
+[11-Mar-2014 22:14:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/yolocli1/public_html/davis_sales/app/code/core/Zend/Db/Statement.php on line 141
+[11-Mar-2014 22:25:13 UTC] PHP Fatal error:  Uncaught exception 'Mage_Core_Exception' with message 'Catalog URL Rewrites Index process is working now. Please try run this process later.' in /home1/yolocli1/public_html/davis_sales/app/Mage.php:595
+Stack trace:
+#0 /home1/yolocli1/public_html/davis_sales/app/code/core/Mage/Index/Model/Process.php(183): Mage::throwException('Catalog URL Rew...')
+#1 /home1/yolocli1/public_html/davis_sales/indexme.php(8): Mage_Index_Model_Process->reindexAll()
+#2 {main}
+  thrown in /home1/yolocli1/public_html/davis_sales/app/Mage.php on line 595
+[11-Mar-2014 22:25:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction' in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home1/yolocli1/public_html/davis_sales/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home1/yolocli1/public_html/davis_sales/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#4 /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('DELETE FROM `co...', Array)
+#5 /home1/yolocli1/public_html/davis_sales/lib/Varien/Db/Adapter/Pdo/Mysql.php(428): Zend_Db_Adapter_Pdo_Abstract->query('DELETE FROM `co...', A in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php on line 234
+[11-Mar-2014 22:26:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction' in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home1/yolocli1/public_html/davis_sales/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home1/yolocli1/public_html/davis_sales/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#4 /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('DELETE FROM `co...', Array)
+#5 /home1/yolocli1/public_html/davis_sales/lib/Varien/Db/Adapter/Pdo/Mysql.php(428): Zend_Db_Adapter_Pdo_Abstract->query('DELETE FROM `co...', A in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php on line 234
+[11-Mar-2014 22:27:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction' in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home1/yolocli1/public_html/davis_sales/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home1/yolocli1/public_html/davis_sales/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#4 /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('UPDATE `catalog...', Array)
+#5 /home1/yolocli1/public_html/davis_sales/lib/Varien/Db/Adapter/Pdo/Mysql.php(428): Zend_Db_Adapter_Pdo_Abstract->query('UPDATE `catalog...', Array)
+#6 /home1/yolo in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php on line 234
+[11-Mar-2014 22:28:08 UTC] PHP Fatal error:  Uncaught exception 'Mage_Core_Exception' with message 'Catalog URL Rewrites Index process is working now. Please try run this process later.' in /home1/yolocli1/public_html/davis_sales/app/Mage.php:595
+Stack trace:
+#0 /home1/yolocli1/public_html/davis_sales/app/code/core/Mage/Index/Model/Process.php(183): Mage::throwException('Catalog URL Rew...')
+#1 /home1/yolocli1/public_html/davis_sales/indexme.php(8): Mage_Index_Model_Process->reindexAll()
+#2 {main}
+  thrown in /home1/yolocli1/public_html/davis_sales/app/Mage.php on line 595
+[11-Mar-2014 22:29:01 UTC] PHP Fatal error:  Uncaught exception 'Mage_Core_Exception' with message 'Catalog URL Rewrites Index process is working now. Please try run this process later.' in /home1/yolocli1/public_html/davis_sales/app/Mage.php:595
+Stack trace:
+#0 /home1/yolocli1/public_html/davis_sales/app/code/core/Mage/Index/Model/Process.php(183): Mage::throwException('Catalog URL Rew...')
+#1 /home1/yolocli1/public_html/davis_sales/indexme.php(8): Mage_Index_Model_Process->reindexAll()
+#2 {main}
+  thrown in /home1/yolocli1/public_html/davis_sales/app/Mage.php on line 595
+[11-Mar-2014 22:52:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction' in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home1/yolocli1/public_html/davis_sales/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home1/yolocli1/public_html/davis_sales/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#4 /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('DELETE FROM `co...', Array)
+#5 /home1/yolocli1/public_html/davis_sales/lib/Varien/Db/Adapter/Pdo/Mysql.php(428): Zend_Db_Adapter_Pdo_Abstract->query('DELETE FROM `co...', A in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php on line 234
+[11-Mar-2014 22:55:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1205 Lock wait timeout exceeded; try restarting transaction' in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home1/yolocli1/public_html/davis_sales/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home1/yolocli1/public_html/davis_sales/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#4 /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('UPDATE `catalog...', Array)
+#5 /home1/yolocli1/public_html/davis_sales/lib/Varien/Db/Adapter/Pdo/Mysql.php(428): Zend_Db_Adapter_Pdo_Abstract->query('UPDATE `catalog...', Array)
+#6 /home1/yolo in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php on line 234
+[11-Mar-2014 22:56:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Adapter/Abstract.php on line 1045
+[11-Mar-2014 23:00:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction' in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home1/yolocli1/public_html/davis_sales/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home1/yolocli1/public_html/davis_sales/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#4 /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('DELETE FROM `co...', Array)
+#5 /home1/yolocli1/public_html/davis_sales/lib/Varien/Db/Adapter/Pdo/Mysql.php(428): Zend_Db_Adapter_Pdo_Abstract->query('DELETE FROM `co...', A in /home1/yolocli1/public_html/davis_sales/lib/Zend/Db/Statement/Pdo.php on line 234
