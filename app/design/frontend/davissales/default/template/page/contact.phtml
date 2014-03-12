@@ -109,17 +109,17 @@
 var $j = jQuery.noConflict(); 
 
 $j(document).ready(function(){
-
+  
   markers = [];
   function pan_to(lat,lng) { //just omit the 'lati' and 'long'
     var latLng = new google.maps.LatLng(lat, lng);
     map.panTo(latLng);
 }
  
-$j('#markerOptions li').on('click', function(event) {
+$('#markerOptions li').on('click', function(event) {
   event.preventDefault();
-  $lat = $j(this).data('lat');
-  $lng = $j(this).data('lng');
+  $lat = $(this).data('lat');
+  $lng = $(this).data('lng');
   pan_to($lat,$lng)
 });
   function initialize() {
@@ -197,18 +197,15 @@ $j('#markerOptions li').on('click', function(event) {
 
 // map.offsetCenter(new google.maps.LatLng (29.95134635974806,-90.07123947143555),1350,0);  
   google.maps.event.addDomListener(window, "load", initialize);
-var $j = jQuery.noConflict(); 
-
-
 
   // map.setCenter(new google.maps.LatLng(29.95134635974806,-90.07123947143555));
-  $j(document).ready(function(){
+  $(document).ready(function()
   {
-      $j('#markerOptions li').on('click', function()
+      $('#markerOptions li').on('click', function()
       {
-          $j('#markerOptions li').removeClass('selectedMarker');
-          $j(this).addClass('selectedMarker');
-          var markerId = $j(this).attr('data-marker');
+          $('#markerOptions li').removeClass('selectedMarker');
+          $(this).addClass('selectedMarker');
+          var markerId = $(this).attr('data-marker');
           var lat = markers[markerId].position.lat();
           var lng = markers[markerId].position.lng();
           map.setCenter(new google.maps.LatLng(lat, lng));
@@ -217,11 +214,11 @@ var $j = jQuery.noConflict();
           
       });
   });
-$j(document).ready(function(){
-    $contact = $j('.contact-page')
+$(function(){
+    $contact = $('.contact-page')
     $contact_pos = $contact.offset();
     setTimeout(function(){
-        $marker_panel = $j('#markerOptions').css({
+        $marker_panel = $('#markerOptions').css({
             left: $contact_pos.left,
             opacity: '1'
         });
