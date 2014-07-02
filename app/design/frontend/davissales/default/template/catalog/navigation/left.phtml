@@ -44,6 +44,21 @@
  </div> 
  </div> 
 </div>
+
+<div class="block block-category block-man">
+ <div class="inside-box">
+ <div class="block-title block-category-title"><h2><?php echo $this->__('Browse Manufacturers') ?></h2></div>
+ <div class="block-category-navigation">
+ <ul id="category-nav"> 
+ <?php foreach ($this->getAllManu() as $manufacturer): ?>
+                <li>
+                    <a href="catalogsearch/advanced/result/?manufacturer[]=<?php echo $manufacturer['value'] ?>"><?php echo $manufacturer['label'] ?></a>
+                </li>
+<?php endforeach;?>
+ </ul>  
+ </div> 
+ </div> 
+</div>
 <?php if (!Mage::registry('current_category')) return ?>
 <?php $_categories = $this->getCurrentChildCategories() ?>
 <?php $_count = is_array($_categories)?count($_categories):$_categories->count(); ?>

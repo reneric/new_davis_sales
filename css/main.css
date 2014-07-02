@@ -1,9 +1,135 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
+.product-banner {
+  margin-bottom: 20px;
+
+}
+.product-banner img {
+  margin-top: -103px;
+}
+.block-man {}
+.block-man ul#category-nav {}
+.block-man ul#category-nav li {}
+.block-man ul#category-nav li a{}
+body .col-mains .advanced-search-summary {
+  margin: 10px 0;
+border: none;
+background: #F7F7F7;
+padding: 10px;
+float: left;
+width: 100%;
+text-align: left;
+}
+body .col-mains .advanced-search-summary ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+body .col-mains .advanced-search-summary ul li strong {
+  padding: 0;
+}
+body .col-mains .advanced-search-summary p {}
 body {
   color: #5a5a5a; }
+.carousel .last-item .container{
+  display: block;
+  position: relative;
+  height: 466px;
+  }
+  a.call2action i {
+font-size: 28px;
+position: relative;
+bottom: -3px;
+margin-right: 10px;
+margin-left: -5px;
+}
+  
+ a.call2action p {
+display: inline-block;
+margin: 0;
+line-height: 65px;
+ }
+ /*a.call2action:after{
+content: "";
+width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 32.5px 15px 32.5px 0;
+border-color: rgba(0, 0, 0, 0) #EECA3C rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+display: block;
+position: absolute;
+top: 0;
+left: -15px;
 
+ }
+ */
+  a.call2action:before{
+content: "";
+width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 42px 24px 0 0;
+border-color: #EECA3C rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+display: block;
+position: absolute;
+top: 0;
+right: -21px;
+
+ }
+ a.call2action:after{
+content: "";
+width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 42px 0 0 23px;
+border-color: transparent transparent transparent #eeca3c;
+display: block;
+position: absolute;
+bottom: 0;
+right: -21px;
+ }
+ a.call2action:hover:before{
+  border-color: #EBC016 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+ }
+ a.call2action:hover:after {
+  border-color: transparent transparent transparent #EBC016;
+ }
+ a.call2action:before,
+ a.call2action:after {
+-webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+ }
+ a.call2action:hover {
+  background-color: #EBC016;
+ }
+ a.call2action {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+display: block;
+background-color: #EECA3C;
+color: #FFF;
+width: 210px;
+height: 65px;
+z-index: 999999;
+position: absolute;
+line-height: 60px;
+text-align: center;
+top: 209px;
+right: 51px;
+font-size: 17px;
+font-family: "proxima-nova";
+text-transform: uppercase;
+-webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8),0px 0px 1px rgba(0, 0, 0, 0.8);
+-moz-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8),0px 0px 1px rgba(0, 0, 0, 0.8);
+box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8),0px 0px 1px rgba(0, 0, 0, 0.8);
+}
+}
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
@@ -13,7 +139,38 @@ body {
   left: 0;
   right: 0;
   z-index: 20; }
-
+  .p-message strong{
+    display: block;
+  }
+  .p-message{
+    margin: 15px auto 22px;
+/* width: 850px; */
+text-align: center;
+line-height: 1.8;
+font-size: 12px;
+  }
+.toplinks {
+background-color: #2C2928;
+margin: 0;
+padding: 1px;
+border-bottom: 2px solid #575352;
+}
+.toplinks ul {
+  padding: 0;
+  margin: 0 5px 0 0;
+  float: right;
+  
+}
+.toplinks ul li {}
+.toplinks ul li a {
+  color: #D1D2D4;
+font-family: proxima-nova;
+text-transform: uppercase;
+font-size: 11px;
+font-weight: bold;
+padding: 0 0 0 15px;
+line-height: 29px;
+}
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper .container {
   padding-left: 0;
@@ -137,6 +294,7 @@ body {
 
 .navbar-default .navbar-collapse {
   border-width: 0px;
+  margin-top: -1px;
   border-style: solid;
   border-color: transparent;
   background-color: #2c2928; }
@@ -362,16 +520,23 @@ display: block;
       float: left; }
       .resources .resource-row .resource .entry-content h3 {
         margin: 0 0 15px;
-        color: #2b8d42;
-        font-family: "museo-sans-rounded";
-        font-size: 24px; }
+color: #2B8D42;
+font-family: "museo-sans-rounded";
+font-size: 24px;
+line-height: 24px;
+margin-top: -2px;}
       .resources .resource-row .resource .entry-content p {
         margin: 0 0 20px; }
       .resources .resource-row .resource .entry-content a.readmore {
         color: #2b8d42;
         font-family: "MuseoSans", sans-serif;
         font-size: 16px; }
-
+body .marketing .featured-product.large-featured img {
+margin: 20px auto 20px;
+max-width: 180px;
+width: 100%;
+height: auto;
+}
 footer {
   background-color: #2c2928;
   padding-top: 30px; }
@@ -385,7 +550,7 @@ footer {
       display: block;
       text-indent: -9999px;
       height: 83px;
-      background-image: url("../img/footer-logo.png");
+      background-image: url("../img/main-logo.png");
       background-repeat: no-repeat;
       background-position: center center; }
   footer .social-footer {
@@ -583,7 +748,7 @@ footer {
   font-size: 43px;
   font-weight: 100;
   text-align: center;
-  margin-top: 40px; }
+  margin-top: 0px; }
 .about-page .three-points {
   margin-top: 20px; }
   .about-page .three-points span {
@@ -622,13 +787,47 @@ footer {
   .about-page .three-points .customer-service,
   .about-page .three-points .established {
     min-height: 460px; }
+.home-content {
+  font-family: "museo-sans-rounded";
+}
+.sku-wish{
+  width: 100%;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+.sku {
+  float: left;
+  
+}
+.sku p {}
+.sku span{}
+.home-content ul {
+  list-style-type: disc;
+}
+.home-content ul li {
+  font-family: "museo-sans-rounded";
+  font-weight: 100;
+  list-style-type: disc;
+  margin-bottom: 5px;
+}
+.home-content p{
+  text-align: justify;
+font-weight: 100;
+font-size: 16px;
+margin-top: 15px;
+line-height: 1.5;
+}
+.home-content p.head{
+  font-weight: bold;
+  text-indent: 21px;
+}
 
 .one-stop {
   width: 100%;
   text-align: center;
   min-height: 302px;
   padding: 50px 0;
-  margin: 50px 0;
+  margin: 30px 0 50px;
   background-color: #f5f5f5;
   -webkit-box-shadow: 0 0 0 1px rgba(1, 1, 1, 0.23);
   -moz-box-shadow: 0 0 0 1px rgba(1, 1, 1, 0.23);

@@ -44,13 +44,28 @@
 
 var $j = jQuery.noConflict();
 $j(document).ready(function(){
+    
+       $j('a.search input#search').on('focus', function(event) {
+            event.preventDefault()
+            var search = $j(this).parent()
+                search.addClass('active')            
+                search.find('input#search').addClass('active')
+                $j('.nosearch').addClass('on')
+        });
+        $j('a.search input#search').on('blur', function(event) {
+                $j('.nosearch').removeClass('on')
+                $j(this).removeClass('active')   
+                $j('.nosearch').removeClass('on')
+                $j('a.search').removeClass('active')
+        })
         $j('#product_tabs_description_contents').addClass('active')
         $j('.product-tabs li').on('click', function(event) {
             event.preventDefault();
             $j('.product-tabs-content,.product-tabs li').removeClass('active');
             $j(this).addClass('active')
-            var id = $j(this).attr('id')
+            var $id = $j(this).attr('id')
             $j('#'+$id+'_contents').addClass('active')
         });
+        
     })
 </script>

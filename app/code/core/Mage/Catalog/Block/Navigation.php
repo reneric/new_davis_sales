@@ -73,7 +73,17 @@ class Mage_Catalog_Block_Navigation extends Mage_Core_Block_Template
             Mage_Core_Model_Store_Group::CACHE_TAG
         ));
     }
+public function getAllManu()
+ {
+        $product = Mage::getModel('catalog/product');
+        $attributes = Mage::getResourceModel('eav/entity_attribute_collection')
+        ->setEntityTypeFilter($product->getResource()->getTypeId())
+                ->addFieldToFilter('attribute_code', 'manufacturer'); //can be changed to any attribute
+        $attribute = $attributes->getFirstItem()->setEntity($product->getResource());
+        $manufacturers = $attribute->getSource()->getAllOptions(false);
 
+        return $manufacturers;
+    }
     /**
      * Get Key pieces for caching block content
      *

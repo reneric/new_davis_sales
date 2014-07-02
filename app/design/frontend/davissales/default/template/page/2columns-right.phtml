@@ -36,23 +36,34 @@
 </head>
 <body<?php echo $this->getBodyClass()?' class="'.$this->getBodyClass().'"':'' ?>>
 <?php echo $this->getChildHtml('after_body_start') ?>
-<div class="wrapper">
     <?php echo $this->getChildHtml('global_notices') ?>
-    <div class="page">
+    <?php 
+$_category = Mage::getModel('catalog/category')->load(CATEGORY-ID);    
+    $_categories = $_category
+                    ->getCollection()
+                    ->addAttributeToSelect(array('name', 'image', 'description'))
+                    ->addIdFilter($_category->getChildren());
+
+    foreach ($_categories as $_category):
+       echo $_category->getName();
+    endforeach;
+     ?>
         <?php echo $this->getChildHtml('header') ?>
-        <div class="main-container col2-right-layout container">
-            <div class="main">
+        <div id="main" class="about">
+        <div class="container about-page clearfix">
                 <?php echo $this->getChildHtml('breadcrumbs') ?>
-                <div class="col-main">
+                <h1 class="products-page-title">Products</h1>
+                <div class="col-lefts sidebar col-xs-4"><?php echo $this->getChildHtml('left') ?></div>
+                
+                <div class="col-mains col-xs-8">
                     <?php echo $this->getChildHtml('global_messages') ?>
                     <?php echo $this->getChildHtml('content') ?>
                 </div>
-                <!-- <div class="col-right sidebar"><?php echo $this->getChildHtml('right') ?></div> -->
             </div>
         </div>
         <div class="call-banner">
           <h5>Call us today</h5>
-          <h2>(255) 766-7051</h2>
+          <h2>(225) 924-5536</h2>
         </div><!-- call-banner -->
       <div class="row three-locations">
         <h5>Visit one of our three locations</h5>
@@ -89,9 +100,6 @@
         <?php echo $this->getChildHtml('footer') ?>
         <?php echo $this->getChildHtml('global_cookie_notice') ?>
         <?php echo $this->getChildHtml('before_body_end') ?>
-    </div>
-</div>
-
 <?php echo $this->getAbsoluteFooter() ?>
 </body>
 </html>

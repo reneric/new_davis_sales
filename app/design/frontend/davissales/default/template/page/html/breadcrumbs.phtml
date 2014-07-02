@@ -25,7 +25,12 @@
  */
 ?>
 <?php if($crumbs && is_array($crumbs)): ?>
-<div class="breadcrumbs">
+<?php if ($this->getIsProduct() == 'true'): ?>
+    <div class="product-banner">
+        <img src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB); ?>img/prod-banner.jpg" alt="">
+    </div>
+<?php endif; ?>
+<div class="breadcrumbs sese">
     <ul>
         <?php foreach($crumbs as $_crumbName=>$_crumbInfo): ?>
             <li class="<?php echo $_crumbName ?>">
